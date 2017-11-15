@@ -33,6 +33,11 @@ In my case, I could leave the module in the light bulb, but for flashing I provi
 
 You can use software like [JLink](https://www.segger.com/products/debug-probes/j-link/) or [OpenOCD](http://www.openocd.org) to flash the target.
 
+## Custom firmware
+The chip is a normal Cortex M4. You can flash it with anything :-)
+
+As a starting point, you could take a look at [this pull request](https://github.com/RIOT-OS/RIOT/pull/8047) for RIOT-OS.
+
 ## Isolation
 If you plan to leave the board in-place, and run your own light bulb firmware, never connect external devices (e.g. debugger or serial adapter) to a light bulb that is plugged in. Due to different voltage levels, you could destroy your devices.
 
