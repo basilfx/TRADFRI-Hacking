@@ -50,11 +50,23 @@ You can use software like [JLink](https://www.segger.com/products/debug-probes/j
 
 If you use JLink, you can use the command below to connect to the board:
 
-```shell
+```
 JLink -If SWD -Speed 5000 -Device EFR32MG1PXXXF256
 ```
 
-Once you are connected, you can dump the flash using the `savebin` command.
+To dump the flash contents, use the command below (0x4000 is 256 Kb):
+
+```
+savebin output.bin 0x0 0x4000
+```
+
+To load a flash from file, use the following command:
+
+```
+loadbin output.bin
+```
+
+I have confirmed that you can dump the flash, erase the device and load it again, and the light bulb will still work.
 
 ## Custom firmware
 The chip is a normal Cortex M4. You can flash it with anything :-)
