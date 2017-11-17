@@ -1,6 +1,7 @@
 # Hacking the IKEA TRÅDFRI
 
 * [Introduction](#introduction)
+* [Components](#pinout)
 * [Pinout](#pinout)
 * [Flashing using JTAG](#flashing)
 * [Software](#software)
@@ -11,7 +12,6 @@
 * [License](#license)
 
 ## Introduction
-
 The [IKEA TRÅDFRI](http://www.ikea.com/us/en/catalog/categories/departments/lighting/36812/) family of products provide you with several lighting solutions that interconnect using [ZigBee Light Link](http://www.zigbee.org/zigbee-for-developers/applicationstandards/zigbee-light-link/).
 
 If we take a simple GU-10 light bulb, it contains:
@@ -20,11 +20,20 @@ If we take a simple GU-10 light bulb, it contains:
 * LED driver
 * IKEA TRÅDFRI module
 
-The tiny module is used in many of their products, and is actually a small piece board with some GPIO exposed. This board uses the energy-efficient Silicon Labs [EFR32MG1P132F256GM32](https://www.silabs.com/products/wireless/mesh-networking/efr32mg-mighty-gecko-zigbee-thread-soc/device.efr32mg1p132f256gm32) microcontroller, which is a ARM Cortex M4 with 256 Kb of flash.
+The tiny module is used in many of their products, and is actually a small piece board with some GPIO exposed. This board uses the energy-efficient Silicon Labs [EFR32MG1P132F256GM32](https://www.silabs.com/products/wireless/mesh-networking/efr32mg-mighty-gecko-zigbee-thread-soc/device.efr32mg1p132f256gm32) microcontroller (MCU), which is a ARM Cortex M4 with 256 Kb of flash.
 
 You can take out the board, and hook it up to your own lighting solutions. Or, you can flash it with your own firmware, for other purposes.
 
 As a proof of concept, check out [this YouTube video](https://www.youtube.com/watch?v=yi_Z2WtmdDU) I made.
+
+## Components
+I have been able to following parts:
+
+* Microcontroller: [EFR32MG1P132F256GM32](https://www.silabs.com/products/wireless/mesh-networking/efr32mg-mighty-gecko-zigbee-thread-soc/device.efr32mg1p132f256gm32)
+* 2Mbit SPI Flash: [IS25LQ020B](http://www.issi.com/WW/pdf/25LQ025B-512B-010B-020B-040B.pdf)
+* Crystal: 38.4 MHz
+
+I'm not entirely sure about the flash, but at least the JEDEC ID command and Product ID command (see table 8.4) match up when tested.
 
 ## Pinout
 I found a pinout on [this website](https://tradfri.blogspot.nl).
@@ -81,7 +90,6 @@ If you want to connect an external device, ensure that it is properly isolated (
 I have designed a board that you could use to isolate signals. You can find it [here](pcbs/isolator).
 
 ## Pictures
-
 Front of the TRÅDFRI module:
 
 ![Back of IKEA TRÅDFRI](images/front.jpg)
