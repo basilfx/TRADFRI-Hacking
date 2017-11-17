@@ -82,6 +82,8 @@ The chip is a normal Cortex M4. You can flash it with anything :-)
 
 As a starting point, you could take a look at [this pull request](https://github.com/RIOT-OS/RIOT/pull/8047) for RIOT-OS. To get started.
 
+I've added some firmwares in the [firmwares](firmwares/) folder.
+
 ## Isolation
 If you plan to leave the board in-place, and run your own light bulb firmware, never connect external devices (e.g. debugger or serial adapter) to a light bulb that is plugged in. Due to different voltage levels, you could destroy your devices.
 
@@ -101,6 +103,10 @@ Back of the TRÅDFRI module:
 My setup (the small board is a UART isolator):
 
 ![Setup](images/setup.jpg)
+
+My safer setup, including debugger (LED is connected to same pin as it would in the GU-10 light):
+
+![Setup](images/setup2.jpg)
 
 ## Relevant sources
 I have gathered some information from the following sources:
