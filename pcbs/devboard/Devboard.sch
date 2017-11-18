@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:trådfri
 LIBS:switches
 LIBS:jtag10
+LIBS:Devboard-cache
 EELAYER 25 0
 EELAYER END
 $Descr User 8268 5827
@@ -81,23 +82,23 @@ $EndComp
 $Comp
 L GND #PWR01
 U 1 1 5A0E1FA1
-P 2550 1900
-F 0 "#PWR01" H 2550 1650 50  0001 C CNN
-F 1 "GND" H 2550 1750 50  0000 C CNN
-F 2 "" H 2550 1900 50  0001 C CNN
-F 3 "" H 2550 1900 50  0001 C CNN
-	1    2550 1900
+P 2550 2050
+F 0 "#PWR01" H 2550 1800 50  0001 C CNN
+F 1 "GND" H 2550 1900 50  0000 C CNN
+F 2 "" H 2550 2050 50  0001 C CNN
+F 3 "" H 2550 2050 50  0001 C CNN
+	1    2550 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3V3 #PWR02
 U 1 1 5A0E1FC1
-P 2550 1150
-F 0 "#PWR02" H 2550 1000 50  0001 C CNN
-F 1 "+3V3" H 2550 1290 50  0000 C CNN
-F 2 "" H 2550 1150 50  0001 C CNN
-F 3 "" H 2550 1150 50  0001 C CNN
-	1    2550 1150
+P 2650 950
+F 0 "#PWR02" H 2650 800 50  0001 C CNN
+F 1 "+3V3" H 2650 1090 50  0000 C CNN
+F 2 "" H 2650 950 50  0001 C CNN
+F 3 "" H 2650 950 50  0001 C CNN
+	1    2650 950 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -332,7 +333,7 @@ Text Label 4900 2950 2    60   ~ 0
 SWDIO
 Text Label 4800 1050 0    60   ~ 0
 RESETn
-Text Label 3300 2400 3    60   ~ 0
+Text Label 3300 2500 3    60   ~ 0
 RESETn
 $Comp
 L +3V3 #PWR015
@@ -370,6 +371,8 @@ Text Label 6500 3150 2    60   ~ 0
 SWCLK
 Text Label 6500 3250 2    60   ~ 0
 SWO
+Text Notes 3650 750  0    60   ~ 12
+UNTESTED
 Wire Wire Line
 	6050 3250 6500 3250
 Wire Wire Line
@@ -437,13 +440,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 3250 3300 3450
 Wire Wire Line
-	3300 2400 3300 2850
-Connection ~ 2550 1750
-Wire Wire Line
-	2550 1750 2550 1900
-Connection ~ 2550 1650
-Wire Wire Line
-	2550 1650 2550 1150
+	3300 2500 3300 2850
 Wire Wire Line
 	4450 1950 5450 1950
 Wire Wire Line
@@ -476,6 +473,10 @@ Wire Wire Line
 	2450 1350 3450 1350
 Wire Wire Line
 	2450 1250 3450 1250
-Text Notes 3650 750  0    60   ~ 12
-UNTESTED
+Wire Wire Line
+	2650 950  2650 1750
+Connection ~ 2650 1750
+Wire Wire Line
+	2550 1650 2550 2050
+Connection ~ 2550 1650
 $EndSCHEMATC
