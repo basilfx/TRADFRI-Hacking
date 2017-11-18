@@ -1,0 +1,104 @@
+# List of IKEA TRÅDFRI products
+
+* [Introduction](#introduction)
+* [Lighting products](#lighting-products)
+* [Accessories](#accessories)
+
+## Introduction
+This list is a collection of the IKEA TRÅDFRI products, and their relevant technical properties. Please help me to update this list.
+
+## Lighting products
+
+### LED1545G12
+
+Details:
+
+* Socket: E27
+* Potted: likely
+
+### LED1546G12
+
+Details:
+
+* Socket: E27
+* Potted: likely
+
+### LED1622G12
+
+Details:
+
+* Socket: E27
+* Potted: likely
+
+### LED1623G12
+
+Details:
+
+* Socket: E27
+* Potted: likely
+
+### LED1624G9
+
+Details:
+
+* Socket: E27
+* Potted: likely
+
+### LED1536G5
+
+Details:
+
+* Socket: E14
+* Potted: likely
+
+### LED1537R6
+
+Details:
+
+* Socket: GU10
+
+### LED1650R5
+
+Details:
+
+* Socket: GU10
+* Potted: no
+
+TRÅDFRI Module pinout:
+
+* PA1 -> unused (but soldered)
+* PB13 -> LED driver
+
+Power usage:
+
+| Brightness | Power (W) | Cos φ |
+|------------|-----------|-------|
+| 100%       | 6.0       | 0.80  |
+| 50%        | 1.6       | 0.62  |
+| 10%        | 0.7       | 0.40  |
+| Off        | 0.0       | 1.00  |
+
+Measured using a Voltcraft 3000 energy monitor.
+
+## Accessories
+
+### E1524 (Remote controller)
+
+TRÅDFRI Module pinout:
+
+* PB15 -> Color temperature
+* PB14 -> Dim -
+* PC10 -> On/Off
+* PB13 -> TX
+* PA1 -> Dim +
+* PA0 -> TouchLink button
+
+[Source](https://www.heise.de/make/artikel/Ikea-Tradfri-Anleitung-fuer-ein-ESP8266-Lampen-Gateway-3598411.html)
+
+### E1525 (Motion sensor)
+
+Details:
+
+* Battery: 2x CR2032
+
+### ICTC-G-1 (Wireless dimmer)

@@ -14,7 +14,7 @@
 ## Introduction
 The [IKEA TRÅDFRI](http://www.ikea.com/us/en/catalog/categories/departments/lighting/36812/) family of products provide you with several lighting solutions that interconnect using [ZigBee Light Link](http://www.zigbee.org/zigbee-for-developers/applicationstandards/zigbee-light-link/).
 
-If we take a simple GU-10 light bulb, it contains:
+If we take a simple GU10 light bulb, it contains:
 
 * Power supply
 * LED driver
@@ -22,9 +22,9 @@ If we take a simple GU-10 light bulb, it contains:
 
 The tiny module is used in many of their products, and is actually a small piece board with some GPIO exposed. This board uses the energy-efficient Silicon Labs [EFR32MG1P132F256GM32](https://www.silabs.com/products/wireless/mesh-networking/efr32mg-mighty-gecko-zigbee-thread-soc/device.efr32mg1p132f256gm32) microcontroller (MCU), which is a ARM Cortex M4 with 256 KiB of flash.
 
-You can take out the board, and hook it up to your own lighting solutions. Or, you can flash it with your own firmware, for other purposes.
+You can take out the board, and hook it up to your own lighting solutions. Or, you can flash it with your [own firmware](#custom-firmware), for other purposes.
 
-As a proof of concept, check out [this YouTube video](https://www.youtube.com/watch?v=yi_Z2WtmdDU) I made.
+To find relevant products, I have compiled a [list of IKEA TRÅDFRI products](MODELS.md) (please help me to update this list).
 
 ## Components
 I have been able to following parts on a single IKEA TRÅDFRI module:
@@ -83,6 +83,8 @@ The chip is a normal Cortex M4. You can flash it with anything. As a starting po
 
 I've added some firmwares in the [firmwares](firmwares/) folder.
 
+As a proof of concept, check out [this YouTube video](https://www.youtube.com/watch?v=yi_Z2WtmdDU) I made. In there, I show how I control the LED connected via a serial console.
+
 ## Isolation
 If you plan to leave the board in-place, and run your own light bulb firmware, never connect external devices (e.g. debugger or serial adapter) to a light bulb that is plugged in. Due to different voltage levels, you could destroy your devices.
 
@@ -103,7 +105,7 @@ My setup (the small board is a UART isolator):
 
 ![Setup](images/setup.jpg)
 
-My safer setup, including debugger (LED is connected to same pin as it would in the GU-10 light):
+My safer setup, including debugger (LED is connected to same pin as it would in the GU10 light):
 
 ![Setup](images/setup2.jpg)
 
