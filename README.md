@@ -34,7 +34,7 @@ I have been able to identify the following parts on a IKEA TRÅDFRI module:
 * Crystal: 38.4 MHz
 
 ~~I'm not entirely sure about the flash, but at least the JEDEC ID command and Product ID command (see table 8.4) match up when tested.~~
-I'm very certain that the SPI Flash component is correct. The original firmware contains strings that refer to the exact part number.
+I'm very certain that the SPI Flash component is correct. The original firmware contains strings that refer to the exact part number. However, it also contains references to other SPI flash components, so your module may contain another one.
 
 ## Pinout
 I found a pinout on [this website](https://tradfri.blogspot.nl).
