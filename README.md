@@ -10,6 +10,7 @@
 * [Pictures](#pictures)
 * [Relevant sources](#relevant-sources)
 * [License](#license)
+* [Disclaimer](#disclaimer)
 
 ## Introduction
 The [IKEA TRÅDFRI](http://www.ikea.com/us/en/catalog/categories/departments/lighting/36812/) family of products provide you with several lighting solutions that interconnect using [ZigBee Light Link](http://www.zigbee.org/zigbee-for-developers/applicationstandards/zigbee-light-link/).
@@ -118,3 +119,8 @@ I have gathered some information from the following sources:
 
 ## License
 Creative Commons BY Attribution 4.0 International
+
+## Disclaimer
+This page and its content is not affiliated with IKEA of Sweden AB.
+
+The purpose of this project is to learn and improve using reverse engineering techniques. Use this information on your own risk.
