@@ -101,4 +101,10 @@ Details:
 
 * Battery: 2x CR2032
 
+### E1526 (Gateway)
+
+Details:
+
+* Power supply: USB 5V 1A
+
 ### ICTC-G-1 (Wireless dimmer)
