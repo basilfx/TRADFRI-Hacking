@@ -30,10 +30,11 @@ To find relevant products, I have compiled a [list of IKEA TRÅDFRI products](MO
 I have been able to identify the following parts on a IKEA TRÅDFRI module:
 
 * Microcontroller: [EFR32MG1P132F256GM32](https://www.silabs.com/products/wireless/mesh-networking/efr32mg-mighty-gecko-zigbee-thread-soc/device.efr32mg1p132f256gm32)
-* 2Mbit SPI Flash: [IS25LQ020B](http://www.issi.com/WW/pdf/25LQ025B-512B-010B-020B-040B.pdf)
+* 2 Mbit SPI Flash: [IS25LQ020B](http://www.issi.com/WW/pdf/25LQ025B-512B-010B-020B-040B.pdf)
 * Crystal: 38.4 MHz
 
-I'm not entirely sure about the flash, but at least the JEDEC ID command and Product ID command (see table 8.4) match up when tested.
+~~I'm not entirely sure about the flash, but at least the JEDEC ID command and Product ID command (see table 8.4) match up when tested.~~
+I'm very certain that the SPI Flash component is correct. The original firmware contains strings that refer to the exact part number.
 
 ## Pinout
 I found a pinout on [this website](https://tradfri.blogspot.nl).
