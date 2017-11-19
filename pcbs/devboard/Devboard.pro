@@ -1,4 +1,4 @@
-update=donderdag 16 november 2017 'o14' 22:14:19
+update=zondag 19 november 2017 'o18' 14:18:47
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,6 +58,5 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=trådfri
+LibName30=ikea
 LibName31=switches
-LibName32=jtag10

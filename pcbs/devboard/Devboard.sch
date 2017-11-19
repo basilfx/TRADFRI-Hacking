@@ -28,10 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:trådfri
+LIBS:ikea
 LIBS:switches
-LIBS:jtag10
-LIBS:Devboard-cache
 EELAYER 25 0
 EELAYER END
 $Descr User 8268 5827
@@ -46,17 +44,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Trådfri U1
-U 1 1 5A0E1C08
-P 4150 1250
-F 0 "U1" H 3650 1600 60  0000 C CNN
-F 1 "Trådfri" H 4150 1600 60  0000 C CNN
-F 2 "Parts:Trådfri PCB2.0" H 4150 1250 60  0001 C CNN
-F 3 "" H 4150 1250 60  0001 C CNN
-	1    4150 1250
-	1    0    0    -1  
-$EndComp
 $Comp
 L Conn_01x10 J4
 U 1 1 5A0E1C62
@@ -479,4 +466,15 @@ Connection ~ 2650 1750
 Wire Wire Line
 	2550 1650 2550 2050
 Connection ~ 2550 1650
+$Comp
+L TRADFRI U1
+U 1 1 5A1186AF
+P 4150 1250
+F 0 "U1" H 3650 1600 60  0000 C CNN
+F 1 "TRADFRI" H 4150 1600 60  0000 C CNN
+F 2 "IKEA:TRADFRI_PCB2.0" H 4150 1250 60  0001 C CNN
+F 3 "" H 4150 1250 60  0001 C CNN
+	1    4150 1250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
