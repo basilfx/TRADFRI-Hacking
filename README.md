@@ -80,6 +80,8 @@ verifybin output.bin 0x0
 
 I have confirmed that you can dump the flash, erase the device and load it again, and the light bulb will still work.
 
+An analysis of the firmware encountered in the GU10 light I bougth can be found in [FIRMWARE.md](FIRMWARE.md).
+
 ## Custom firmware
 The chip is a normal Cortex M4. You can flash it with anything. As a starting point, you could take a look at [this pull request](https://github.com/RIOT-OS/RIOT/pull/8047) for RIOT-OS. To get started.
 
