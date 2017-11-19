@@ -24,7 +24,7 @@ The tiny IKEA TRÅDFRI module is used in many of their products, and is actually
 
 You can take out the board, and hook it up to your own lighting solutions. Or, you can flash it with your [own firmware](#custom-firmware), for other purposes.
 
-To find relevant products, I have compiled a [list of IKEA TRÅDFRI products](MODELS.md) (please help me to update this list).
+To find relevant products, I have compiled a [list of IKEA TRÅDFRI products](PRODUCTS.md) (please help me to update this list).
 
 ## Components
 I have been able to identify the following parts on a IKEA TRÅDFRI module:
