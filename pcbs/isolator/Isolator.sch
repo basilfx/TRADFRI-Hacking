@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:fod8012
+LIBS:Isolator-cache
 EELAYER 25 0
 EELAYER END
 $Descr User 8268 5827
@@ -490,6 +491,4 @@ Wire Wire Line
 	5600 3150 5900 3150
 Text Notes 3050 3250 0    60   ~ 0
 Should fit CH340G USB-to-UART modules \n(6 pin versions with 3V3/5V switch).
-Text Notes 3750 1150 0    60   ~ 12
-UNTESTED
 $EndSCHEMATC
