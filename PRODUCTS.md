@@ -56,6 +56,7 @@ Details:
 Details:
 
 * Socket: GU10
+* Potted: yes (#3)
 
 ### LED1650R5
 
