@@ -42,6 +42,8 @@ I found a pinout on [this website](https://tradfri.blogspot.nl).
 
 ![IKEA TRÅDFRI module pinout](images/pinout.png)
 
+[Marco van Nieuwenhoven](https://diystuff.nl/tradfri/tradfri-zigbee-light-link-module/) has provided more information about the PCB, copper traces and the schematics on his website.
+
 ## Flashing using JTAG
 To connect to an external JTAG/SWD debugger, connect as follows:
 
@@ -118,6 +120,7 @@ I have gathered some information from the following sources:
 
 * [IKEA Trådfri hacking](https://tradfri.blogspot.nl)
 * [Trådfri: ESP8266-Lampen-Gateway](https://www.heise.de/make/artikel/Ikea-Tradfri-Anleitung-fuer-ein-ESP8266-Lampen-Gateway-3598411.html)
+* [Tradfri Zigbee Light Link module](https://diystuff.nl/tradfri/tradfri-zigbee-light-link-module)
 
 ## License
 Creative Commons BY Attribution 4.0 International
