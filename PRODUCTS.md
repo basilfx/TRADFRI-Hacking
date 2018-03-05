@@ -109,3 +109,21 @@ Details:
 * Power supply: USB 5V 1A
 
 ### ICTC-G-1 (Wireless dimmer)
+
+No details (yet).
+
+###  ICPSHC24-10EU-IL-1 (10W LED driver/dimmer)
+
+Details:
+
+* Potted: no
+
+TRÅDFRI Module pinout (incomplete):
+
+* PA0: Pulse (not very readable)
+* PA1: PWM3 (not very readable)
+* PB1: PWM2
+* PB13: PWM1
+
+[Source](https://tweakers.net/nieuws/135893/ikea-komt-met-leddriver-om-geintegreerde-verlichting-slim-te-maken.html)
+[Source](https://imgur.com/gallery/bDTRQ)
