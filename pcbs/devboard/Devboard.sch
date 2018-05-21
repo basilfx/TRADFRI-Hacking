@@ -1,36 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:ikea
-LIBS:switches
-EELAYER 25 0
+EESchema Schematic File Version 4
+LIBS:Devboard-cache
+EELAYER 26 0
 EELAYER END
 $Descr User 8268 5827
 encoding utf-8
@@ -45,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_01x10 J4
+L Devboard-rescue:Conn_01x10 J4
 U 1 1 5A0E1C62
 P 5650 1450
 F 0 "J4" H 5650 1950 50  0000 C CNN
@@ -56,7 +26,7 @@ F 3 "" H 5650 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x06 J2
+L Devboard-rescue:Conn_01x06 J2
 U 1 1 5A0E1D8E
 P 2250 1450
 F 0 "J2" H 2250 1750 50  0000 C CNN
@@ -67,7 +37,7 @@ F 3 "" H 2250 1450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L Devboard-rescue:GND #PWR01
 U 1 1 5A0E1FA1
 P 2550 2050
 F 0 "#PWR01" H 2550 1800 50  0001 C CNN
@@ -78,7 +48,7 @@ F 3 "" H 2550 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR02
+L Devboard-rescue:+3V3 #PWR02
 U 1 1 5A0E1FC1
 P 2650 950
 F 0 "#PWR02" H 2650 800 50  0001 C CNN
@@ -89,18 +59,18 @@ F 3 "" H 2650 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_Push SW1
+L Devboard-rescue:SW_Push SW1
 U 1 1 5A0E2005
 P 3300 3050
 F 0 "SW1" H 3350 3150 50  0000 L CNN
-F 1 "SW_Push" H 3300 2990 50  0000 C CNN
+F 1 "RESET" H 3300 2990 50  0000 C CNN
 F 2 "Buttons_Switches_THT:SW_PUSH_6mm" H 3300 3250 50  0001 C CNN
 F 3 "" H 3300 3250 50  0001 C CNN
 	1    3300 3050
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR03
+L Devboard-rescue:GND #PWR03
 U 1 1 5A0E2092
 P 3300 3450
 F 0 "#PWR03" H 3300 3200 50  0001 C CNN
@@ -111,7 +81,7 @@ F 3 "" H 3300 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x02 J1
+L Devboard-rescue:Conn_01x02 J1
 U 1 1 5A0E2151
 P 1650 3050
 F 0 "J1" H 1650 3150 50  0000 C CNN
@@ -122,7 +92,7 @@ F 3 "" H 1650 3050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR04
+L Devboard-rescue:GND #PWR04
 U 1 1 5A0E2249
 P 5300 2100
 F 0 "#PWR04" H 5300 1850 50  0001 C CNN
@@ -133,7 +103,7 @@ F 3 "" H 5300 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L Devboard-rescue:GND #PWR05
 U 1 1 5A0E22BF
 P 2000 3150
 F 0 "#PWR05" H 2000 2900 50  0001 C CNN
@@ -144,7 +114,7 @@ F 3 "" H 2000 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR06
+L Devboard-rescue:+3V3 #PWR06
 U 1 1 5A0E22D9
 P 2000 2850
 F 0 "#PWR06" H 2000 2700 50  0001 C CNN
@@ -155,7 +125,7 @@ F 3 "" H 2000 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR07
+L Devboard-rescue:+3V3 #PWR07
 U 1 1 5A0E237F
 P 2350 2600
 F 0 "#PWR07" H 2350 2450 50  0001 C CNN
@@ -166,7 +136,7 @@ F 3 "" H 2350 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L Devboard-rescue:LED D1
 U 1 1 5A0E23A0
 P 2350 2850
 F 0 "D1" H 2350 2950 50  0000 C CNN
@@ -177,7 +147,7 @@ F 3 "" H 2350 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R1
+L Devboard-rescue:R R1
 U 1 1 5A0E24CE
 P 2350 3200
 F 0 "R1" V 2430 3200 50  0000 C CNN
@@ -188,7 +158,7 @@ F 3 "" H 2350 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR08
+L Devboard-rescue:GND #PWR08
 U 1 1 5A0E251C
 P 2350 3450
 F 0 "#PWR08" H 2350 3200 50  0001 C CNN
@@ -199,7 +169,7 @@ F 3 "" H 2350 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C1
+L Devboard-rescue:CP C1
 U 1 1 5A0E2BAB
 P 2700 3000
 F 0 "C1" H 2725 3100 50  0000 L CNN
@@ -210,7 +180,7 @@ F 3 "" H 2700 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L Devboard-rescue:C C2
 U 1 1 5A0E2C05
 P 3000 3000
 F 0 "C2" H 3025 3100 50  0000 L CNN
@@ -221,7 +191,7 @@ F 3 "" H 3000 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR09
+L Devboard-rescue:+3V3 #PWR09
 U 1 1 5A0E2C4D
 P 2700 2600
 F 0 "#PWR09" H 2700 2450 50  0001 C CNN
@@ -232,7 +202,7 @@ F 3 "" H 2700 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR010
+L Devboard-rescue:+3V3 #PWR010
 U 1 1 5A0E2C73
 P 3000 2600
 F 0 "#PWR010" H 3000 2450 50  0001 C CNN
@@ -243,7 +213,7 @@ F 3 "" H 3000 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L Devboard-rescue:GND #PWR011
 U 1 1 5A0E2C99
 P 2700 3450
 F 0 "#PWR011" H 2700 3200 50  0001 C CNN
@@ -254,7 +224,7 @@ F 3 "" H 2700 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L Devboard-rescue:GND #PWR012
 U 1 1 5A0E2CBF
 P 3000 3450
 F 0 "#PWR012" H 3000 3200 50  0001 C CNN
@@ -265,7 +235,7 @@ F 3 "" H 3000 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x05_Odd_Even J3
+L Devboard-rescue:Conn_02x05_Odd_Even J3
 U 1 1 5A0E3330
 P 4200 3150
 F 0 "J3" H 4250 3450 50  0000 C CNN
@@ -276,7 +246,7 @@ F 3 "" H 4200 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x03_Odd_Even J5
+L Devboard-rescue:Conn_02x03_Odd_Even J5
 U 1 1 5A0E338C
 P 5750 3150
 F 0 "J5" H 5800 3350 50  0000 C CNN
@@ -289,7 +259,7 @@ $EndComp
 NoConn ~ 4000 3250
 NoConn ~ 4500 3250
 $Comp
-L GND #PWR013
+L Devboard-rescue:GND #PWR013
 U 1 1 5A0E39B3
 P 3800 3450
 F 0 "#PWR013" H 3800 3200 50  0001 C CNN
@@ -300,7 +270,7 @@ F 3 "" H 3800 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR014
+L Devboard-rescue:+3V3 #PWR014
 U 1 1 5A0E3B30
 P 3800 2600
 F 0 "#PWR014" H 3800 2450 50  0001 C CNN
@@ -323,7 +293,7 @@ RESETn
 Text Label 3300 2500 3    60   ~ 0
 RESETn
 $Comp
-L +3V3 #PWR015
+L Devboard-rescue:+3V3 #PWR015
 U 1 1 5A0E44AE
 P 5150 2600
 F 0 "#PWR015" H 5150 2450 50  0001 C CNN
@@ -334,7 +304,7 @@ F 3 "" H 5150 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L Devboard-rescue:GND #PWR016
 U 1 1 5A0E44DA
 P 5150 3450
 F 0 "#PWR016" H 5150 3200 50  0001 C CNN
@@ -386,9 +356,8 @@ Wire Wire Line
 Connection ~ 3800 3150
 Wire Wire Line
 	3800 3350 4000 3350
-Connection ~ 3800 3050
 Wire Wire Line
-	3800 3050 3800 3450
+	3800 3050 3800 3150
 Wire Wire Line
 	3800 3150 4000 3150
 Wire Wire Line
@@ -429,7 +398,7 @@ Wire Wire Line
 Wire Wire Line
 	3300 2500 3300 2850
 Wire Wire Line
-	4450 1950 5450 1950
+	4450 1950 5300 1950
 Wire Wire Line
 	4450 1850 5450 1850
 Wire Wire Line
@@ -449,9 +418,9 @@ Wire Wire Line
 Wire Wire Line
 	4450 1050 5450 1050
 Wire Wire Line
-	2450 1750 3450 1750
+	2450 1750 2650 1750
 Wire Wire Line
-	2450 1650 3450 1650
+	2450 1650 2550 1650
 Wire Wire Line
 	2450 1550 3450 1550
 Wire Wire Line
@@ -467,7 +436,7 @@ Wire Wire Line
 	2550 1650 2550 2050
 Connection ~ 2550 1650
 $Comp
-L TRADFRI U1
+L Devboard-rescue:TRADFRI U1
 U 1 1 5A1186AF
 P 4150 1250
 F 0 "U1" H 3650 1600 60  0000 C CNN
@@ -477,4 +446,14 @@ F 3 "" H 4150 1250 60  0001 C CNN
 	1    4150 1250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3800 3350 3800 3450
+Wire Wire Line
+	3800 3150 3800 3350
+Wire Wire Line
+	5300 1950 5450 1950
+Wire Wire Line
+	2650 1750 3450 1750
+Wire Wire Line
+	2550 1650 3450 1650
 $EndSCHEMATC
