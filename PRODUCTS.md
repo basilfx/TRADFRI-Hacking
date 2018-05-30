@@ -112,7 +112,7 @@ Details:
 
 No details (yet).
 
-###  ICPSHC24-10EU-IL-1 (10W LED driver/dimmer)
+### L1529 (FLOALT 60x60)
 
 Details:
 
