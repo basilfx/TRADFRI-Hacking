@@ -112,6 +112,23 @@ Details:
 
 No details (yet).
 
+### ICPSHC24-10EU-IL-1 (10W LED driver/dimmer)
+
+Details:
+
+* Potted: no
+
+The output appears to be measured by the module somehow.
+Detailed PCB investigation required.
+
+TRÅDFRI Module pinout (incomplete/unverified):
+
+* PA0: K1 (Reset key)
+* PA1: Goes to ZD1, through R9 and then to OUT+, possibly output measuring?
+* PB13: Pulls down the FET Gate
+* FD0: 2
+* PF1: 3
+
 ### L1529 (FLOALT 60x60)
 
 Details:
