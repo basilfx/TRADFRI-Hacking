@@ -143,8 +143,8 @@ TRÅDFRI Module pinout (incomplete/unverified):
 * PA0: K1 (Reset key)
 * PA1: Goes to ZD1, through R9 and then to OUT+, possibly output measuring?
 * PB13: Pulls down the FET Gate
-* FD0: 2
-* PF1: 3
+* PF0: Pin 2 on header
+* PF1: Pin 3 on header
 
 ### L1529 (FLOALT 60x60)
 
