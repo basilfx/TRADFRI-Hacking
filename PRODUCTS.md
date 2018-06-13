@@ -151,6 +151,10 @@ TRÅDFRI Module pinout (incomplete/unverified):
 
 10 Watt Power supply with the 24 V output being controlled by ICPSLC24-10NA
 
+### ICPSHC24-30EU-IL-1 (30W LED driver/dimmer)
+
+30 Watt Power supply with the 24 V output being controlled by ICPSLC24-10NA
+
 ### L1529 (FLOALT 60x60)
 
 Details:
