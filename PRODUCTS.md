@@ -57,6 +57,8 @@ Details:
 
 * Socket: GU10
 * Potted: yes (#3)
+* three pins measures around 28 volt when brightness full.
+  
 
 ### LED1650R5
 
