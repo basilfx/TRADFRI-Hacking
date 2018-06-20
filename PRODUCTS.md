@@ -102,6 +102,23 @@ Details:
 
 * Battery: 2x CR2032
 
+Pinout (unverified):
+
+* Time selection dial (R13): PA1 (Looks like a potentiometer between R12 high side and a FET to GND enabled directly by PB14.)
+* Day/night selection dial (R15): PB15 (Dito, with resistor R14 and same transistor.)
+* Pairing button (S1): Silicone rubber button puling PA0 directly to GND
+
+* The motion detection dome is connected (one pin directly, one indirectly) to an "E93196C 5090C 9A" labelled 8-pin chip to which also PC10 and PB14 are connected (needs further investigation).
+
+* Various test points:
+  * VCC: `TP8_1`, `TP8_2`
+  * GND: `TP2_1`, `TP3_2`
+  * PB13: `TP2_2`
+  * PA0: `TP4_1`, `TP4_2`
+  * PA1: `TP5_2`
+
+The module is easy to take apart, and debug wires can be soldered on without separating the radio / MCU PCB from the carrier PCB. The carrier board is labelled "D-Sensor-A1-01-A-V2.0".
+
 ### E1526 (Gateway)
 
 Details:
