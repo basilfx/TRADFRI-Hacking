@@ -60,10 +60,12 @@ Details:
 * three pins measures around 28 volt when brightness full.
 * pins counted from Module
 * Module
-* 1   Common (+? max 28.4v)
-* 2   Warm leds (-?)
-* 3   Cold leds (-?)
-
+* 1   Common (+ max 28.4v)
+* 2   Warm leds (-)
+* 3   Cold leds (-)
+* 
+* The bulb has 3 settings Warm, Cold, Normal
+* see IMAGES on a LEDBERG 24V ledstrip directly connected (only 2 of 3 colors)
   
 
 ### LED1650R5
