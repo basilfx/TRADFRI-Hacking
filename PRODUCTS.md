@@ -56,8 +56,14 @@ Details:
 Details:
 
 * Socket: GU10
-* Potted: yes (#3)
+* Potted: yes (#3) (easily removable)
 * three pins measures around 28 volt when brightness full.
+* pins counted from Module
+Module
+ 1   Common (+? max 28.4v)
+ 2   Warm leds (-?)
+ 3   Cold leds (-?)
+
   
 
 ### LED1650R5
