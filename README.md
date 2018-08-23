@@ -67,10 +67,10 @@ If you use JLink, you can use the command below to connect to the board:
 JLink -If SWD -Speed 5000 -Device EFR32MG1PXXXF256
 ```
 
-To dump the flash contents, use the command below (0x4000 is 256 KiB):
+To dump the flash contents, use the command below (0x40000 is 256 KiB):
 
 ```
-savebin output.bin 0x0 0x4000
+savebin output.bin 0x0 0x40000
 ```
 
 To load a flash from file, use the following command:
