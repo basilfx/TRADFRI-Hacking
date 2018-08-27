@@ -129,7 +129,8 @@ Details:
 
 No details (yet).
 
-### ICPSHC24-10EU-IL-1 (10W LED driver/dimmer)
+
+### ICPSLC24-10NA (LED output controller/dimmer)
 
 Details:
 
@@ -143,8 +144,12 @@ TRÅDFRI Module pinout (incomplete/unverified):
 * PA0: K1 (Reset key)
 * PA1: Goes to ZD1, through R9 and then to OUT+, possibly output measuring?
 * PB13: Pulls down the FET Gate
-* FD0: 2
-* PF1: 3
+* PF0: Pin 2 on header
+* PF1: Pin 3 on header
+
+### ICPSHC24-10EU-IL-1 (10W LED driver/dimmer)
+
+10 Watt Power supply with the 24 V output being controlled by ICPSLC24-10NA
 
 ### L1529 (FLOALT 60x60)
 
