@@ -123,7 +123,7 @@ Details:
 
 * Battery: 2x CR2032
 
-Pinout (unverified):
+TRÅDFRI Module (unverified):
 
 * Time selection dial (R13): PA1 (Looks like a potentiometer between R12 high side and a FET to GND enabled directly by PB14.)
 * Day/night selection dial (R15): PB15 (Dito, with resistor R14 and same transistor.)
