@@ -31,13 +31,15 @@ To find relevant products, I have compiled a [list of IKEA TRÅDFRI products](PR
 I have been able to identify the following parts on a IKEA TRÅDFRI module:
 
 * Microcontroller: [EFR32MG1P132F256GM32](https://www.silabs.com/products/wireless/mesh-networking/efr32mg-mighty-gecko-zigbee-thread-soc/device.efr32mg1p132f256gm32)
-* 2 Mbit SPI Flash: [IS25LQ020B](http://www.issi.com/WW/pdf/25LQ025B-512B-010B-020B-040B.pdf)
+* 2 Mbit SPI NOR Flash: [IS25LQ020B](http://www.issi.com/WW/pdf/25LQ025B-512B-010B-020B-040B.pdf)
 * Crystal: 38.4 MHz
 
-~~I'm not entirely sure about the flash, but at least the JEDEC ID command and Product ID command (see table 8.4) match up when tested.~~
-I'm very certain that the SPI Flash component is correct. The original firmware contains strings that refer to the exact part number. However, it also contains references to other SPI flash components, so your module may contain another one.
+I am very certain that the SPI NOR Flash component is correct. The original firmware contains strings that refer to the exact part number. However, it also contains references to other SPI flash components, so your module may contain another one. The JEDEC ID it responds with is `9d 40 12`.
 
-In January 2020 I bought the successor of the cheapest Trådfri LED bulb (the LED1837R5) and it contains an updated module. It looks like some components have been moved, but all the part numbers look the same. I have included updated pictures in the [Pictures](#pictures) section.
+### Updated module
+In January 2020 I bought the successor of the cheapest Trådfri LED bulb (the LED1837R5) and it contains an updated module (ICC-A-1). It looks like some components have been moved, but all the part numbers look the same. I have included updated pictures in the [Pictures](#pictures) section.
+
+The only difference I have found (so far), is that PF3 is no longer an output pin, but used to enable the SPI NOR Flash.
 
 ## Pinout
 I found a pinout on [this website](https://tradfri.blogspot.nl).
@@ -54,7 +56,7 @@ To connect to an external JTAG/SWD debugger, connect as follows:
 * PF2 -> SWO
 * RESETn -> RESETn
 * GND -> GND
-* VCC -> VCC (3v3)
+* VCC -> VCC (3V3)
 
 In my case, I could leave the module in the light bulb, but for flashing I provided my own power supply by hooking it up to the VCC line directly.
 
