@@ -127,6 +127,10 @@ My safer setup, including debugger (LED is connected to same pin as it would in 
 
 [<img src="images/setup2.jpg" alt="Safer test setup" width="384">](images/setup2.jpg)
 
+Two soldered development boards that I use nowadays:
+
+[<img src="images/setup3.jpg" alt="Safer test setup" width="384">](images/setup3.jpg)
+
 ## Relevant sources
 I have gathered some information from the following sources:
 
