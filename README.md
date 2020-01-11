@@ -42,11 +42,12 @@ In January 2020 I bought the successor of the cheapest Trådfri LED bulb (the LE
 The only difference I have found (so far), is that PF3 is no longer an output pin, but used to enable the SPI NOR Flash.
 
 ## Pinout
-I found a pinout on [this website](https://tradfri.blogspot.nl).
+The pinout of both modules is very similar.
 
-![IKEA TRÅDFRI module pinout](images/pinout.png)
+[<img src="images/icc-1.png" alt="Back of IKEA TRÅDFRI module (ICC-1)" width="384">](images/icc-1.png)
+[<img src="images/icc-1-a.png" alt="Back of IKEA TRÅDFRI module (ICC-1-A)" width="384">](images/icc-1-a.png)
 
-[Marco van Nieuwenhoven](https://diystuff.nl/tradfri/tradfri-zigbee-light-link-module/) has provided more information about the PCB, copper traces and the schematics on his website.
+[Marco van Nieuwenhoven](https://diystuff.nl/tradfri/tradfri-zigbee-light-link-module/) has provided a very detailed teardown of the ICC-1 module. He traced most of the copper traces and created a schematics on his website.
 
 ## Flashing using JTAG
 To connect to an external JTAG/SWD debugger, connect as follows:
