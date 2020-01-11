@@ -37,6 +37,8 @@ I have been able to identify the following parts on a IKEA TRÅDFRI module:
 ~~I'm not entirely sure about the flash, but at least the JEDEC ID command and Product ID command (see table 8.4) match up when tested.~~
 I'm very certain that the SPI Flash component is correct. The original firmware contains strings that refer to the exact part number. However, it also contains references to other SPI flash components, so your module may contain another one.
 
+In January 2020 I bought the successor of the cheapest Trådfri LED bulb (the LED1837R5) and it contains an updated module. It looks like some components have been moved, but all the part numbers look the same. I have included updated pictures in the [Pictures](#pictures) section.
+
 ## Pinout
 I found a pinout on [this website](https://tradfri.blogspot.nl).
 
@@ -99,21 +101,28 @@ If you want to connect an external device, ensure that it is properly isolated (
 I have designed a board that you could use to isolate UART signals. You can find it [here](pcbs/isolator).
 
 ## Pictures
-Front of the TRÅDFRI module:
 
-![Back of IKEA TRÅDFRI](images/front.jpg)
+### Modules
+I have extracted modules from the LED1650R5 (November 2017) and the LED1837R5 (January 2020).
 
-Back of the TRÅDFRI module:
+Front of two TRÅDFRI modules:
 
-![Front of IKEA TRÅDFRI](images/back.jpg)
+[<img src="images/front.jpg" alt="Back of IKEA TRÅDFRI module (LED1650R5, 2017)" width="384">](images/front.jpg)
+[<img src="images/front2.jpg" alt="Back of IKEA TRÅDFRI module (LED1837R5, 2020)" width="384">](images/front2.jpg)
 
+Back of two TRÅDFRI modules:
+
+[<img src="images/back.jpg" alt="Back of IKEA TRÅDFRI module (LED1650R5, 2017)" width="384">](images/back.jpg)
+[<img src="images/back2.jpg" alt="Back of IKEA TRÅDFRI module (LED1837R5, 2020)" width="384">](images/back2.jpg)
+
+### Test setup
 My setup (the small board is a UART isolator):
 
-![Setup](images/setup.jpg)
+[<img src="images/setup.jpg" alt="Test setup" width="384">](images/setup.jpg)
 
 My safer setup, including debugger (LED is connected to same pin as it would in the GU10 light):
 
-![Setup](images/setup2.jpg)
+[<img src="images/setup2.jpg" alt="Safer test setup" width="384">](images/setup2.jpg)
 
 ## Relevant sources
 I have gathered some information from the following sources:
