@@ -20,6 +20,11 @@ Looking at a binary map of the firmware (created using [binvis.io](http://binvis
 
 [<img src="firmwares/ikea/led1650r5-1.2.214.png" height="384">](firmwares/ikea/led1650r5-1.2.214.png)
 
+## SPI NOR Flash contents
+The board provides a 2MBit (256KiB) SPI NOR Flash. Using the [SPI Flash Dump](firmwares/riot-os/spi_flash_dump) utility, I dumped the flash contents.
+
+It seems seem that the flash chip is not used for this LED bulb. When dumping its contents, it only reads 0xFF (I have verified this utility against a known working flash chip before using). 
+
 ## References
 
 ### Source files
