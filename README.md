@@ -103,17 +103,17 @@ I have designed a board that you could use to isolate UART signals. You can find
 ## Pictures
 
 ### Modules
-I have extracted modules from the LED1650R5 (November 2017) and the LED1837R5 (January 2020).
+I have extracted modules from the LED1650R5 (ICC-1) and the LED1837R5 (ICC-A-1).
 
 Front of two TRÅDFRI modules:
 
-[<img src="images/front.jpg" alt="Back of IKEA TRÅDFRI module (LED1650R5, 2017)" width="384">](images/front.jpg)
-[<img src="images/front2.jpg" alt="Back of IKEA TRÅDFRI module (LED1837R5, 2020)" width="384">](images/front2.jpg)
+[<img src="images/front.jpg" alt="Back of IKEA TRÅDFRI module (ICC-1)" width="384">](images/front.jpg)
+[<img src="images/front2.jpg" alt="Back of IKEA TRÅDFRI module (ICC-A-1)" width="384">](images/front2.jpg)
 
 Back of two TRÅDFRI modules:
 
-[<img src="images/back.jpg" alt="Back of IKEA TRÅDFRI module (LED1650R5, 2017)" width="384">](images/back.jpg)
-[<img src="images/back2.jpg" alt="Back of IKEA TRÅDFRI module (LED1837R5, 2020)" width="384">](images/back2.jpg)
+[<img src="images/back.jpg" alt="Back of IKEA TRÅDFRI module (ICC-1)" width="384">](images/back.jpg)
+[<img src="images/back2.jpg" alt="Back of IKEA TRÅDFRI module (ICC-A-1)" width="384">](images/back2.jpg)
 
 ### Test setup
 My setup (the small board is a UART isolator):
