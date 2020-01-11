@@ -81,7 +81,7 @@ savebin output.bin 0x0 0x40000
 To load a flash from file, use the following command:
 
 ```
-loadbin output.bin
+loadbin output.bin 0x0
 verifybin output.bin 0x0
 ```
 
