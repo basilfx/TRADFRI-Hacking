@@ -65,6 +65,10 @@ Details:
 * Socket: GU10
 * Potted: no
 
+Teardown:
+
+* Use a small flat screw driver to lift up the plastic lens.
+
 TRÅDFRI Module pinout:
 
 * PA1 -> unused (but soldered)
@@ -80,6 +84,23 @@ Power usage:
 | Off        | 0.0       | 1.00  |
 
 Measured using a Voltcraft 3000 energy monitor.
+
+### LED1837R5
+This seems to be the successor of the LED1650R5.
+
+Details:
+
+* Socket: GU10
+* Potted: no
+* Glued: yes (lens cover)
+
+Teardown:
+
+* Use a hot air gun to soften the glue that holds the lens to the glass body. Make sure that you heat it up evenly, otherwise the glass will crack. Then use a small blade to lift up the lens.
+
+TRÅDFRI Module pinout:
+
+* PB13 -> LED driver
 
 ## Accessories
 
