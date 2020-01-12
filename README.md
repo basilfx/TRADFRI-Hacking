@@ -45,7 +45,7 @@ The only difference I have found (so far), is that PF3 is no longer an output pi
 The pinout of both modules is very similar.
 
 [<img src="images/icc-1.png" alt="Back of IKEA TRÅDFRI module (ICC-1)" width="384">](images/icc-1.png)
-[<img src="images/icc-1-a.png" alt="Back of IKEA TRÅDFRI module (ICC-1-A)" width="384">](images/icc-1-a.png)
+[<img src="images/icc-a-1.png" alt="Back of IKEA TRÅDFRI module (ICC-A-1)" width="384">](images/icc-a-1.png)
 
 [Marco van Nieuwenhoven](https://diystuff.nl/tradfri/tradfri-zigbee-light-link-module/) has provided a very detailed teardown of the ICC-1 module. He traced most of the copper traces and created a schematics on his website.
 
