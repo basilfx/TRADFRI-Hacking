@@ -187,7 +187,7 @@ TRÅDFRI Module pinout:
 
 [Source](https://www.heise.de/make/artikel/Ikea-Tradfri-Anleitung-fuer-ein-ESP8266-Lampen-Gateway-3598411.html)
 
-### E1525 (Motion sensor)
+### E1525 (Motion Sensor)
 
 Details:
 
@@ -215,6 +215,35 @@ TRÅDFRI Module (unverified):
 The module is easy to take apart, and debug wires can be soldered on without
 separating the radio / MCU PCB from the carrier PCB. The carrier board is
 labelled "D-Sensor-A1-01-A-V2.0".
+
+### E1745 (Motion Sensor)
+
+Details:
+
+* Battery: 2x CR2032
+
+TRÅDFRI Module (unverified):
+
+* Time selection button: Connected to tK3
+* Day/Night selection button: Connected to tK1
+* Pairing button: Connected to tK2
+
+* The motion detection dome is connected (one pin directly, one indirectly) to an "E93196B 0940A 60A" labelled 8-pin chip.
+
+* Various test points:
+  * VCC: `VDD`
+  * GND: `GND`
+  * Pairing BTN: `tK2`
+  * Day/Night BTN: `tK1`
+  * Time Select BTN: `tK3`
+  * ???: `AL`
+  * ???: `ENT`
+  * ???: `TX1`
+
+Module is easy to take apart with the right tools, debug wires could be soldered on without separating the radio from the carrier PCB. The carrier board is labelled "D-SS-X2-01-A-V2.1" and the date printed is 2018-06-05. Tradfri module markings visible are Draco1.0_105° and 0255C.
+
+[![PCB Front Side](https://i.imgur.com/pxidzLil.jpg)](https://i.imgur.com/pxidzLi.jpg) [![PCB Back Side](https://i.imgur.com/jbqvworl.jpg)](https://i.imgur.com/jbqvwor.jpg)   
+Click for full resolution pictures.
 
 ### E1526 (Gateway)
 
