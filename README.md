@@ -3,7 +3,7 @@
 * [Introduction](#introduction)
 * [Components](#components)
 * [Pinout](#pinout)
-* [Flashing using JTAG](#flashing)
+* [Flashing using JTAG](#flashing-using-jtag)
 * [Software used](#software-used)
 * [Custom firmware](#custom-firmware)
 * [Isolation](#isolation)
