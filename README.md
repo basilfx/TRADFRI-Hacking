@@ -21,7 +21,16 @@ If we take a simple GU10 light bulb, it contains:
 * LED driver
 * IKEA TRÅDFRI module
 
-The tiny IKEA TRÅDFRI module is used in many of their products, and is actually a small piece of circuit board with pins exposed. This board uses the energy-efficient Silicon Labs [EFR32MG1P132F256GM32](https://www.silabs.com/products/wireless/mesh-networking/efr32mg-mighty-gecko-zigbee-thread-soc/device.efr32mg1p132f256gm32) microcontroller (MCU), which is a ARM Cortex M4 with 256 KiB of flash and 32 KiB of memory.
+The tiny IKEA TRÅDFRI module is used in many of their products, and is actually a small piece of circuit board with pins exposed called ICC-1. This board uses the energy-efficient Silicon Labs [EFR32MG1P132F256GM32](https://www.silabs.com/products/wireless/mesh-networking/efr32mg-mighty-gecko-zigbee-thread-soc/device.efr32mg1p132f256gm32) microcontroller (MCU), which is a ARM Cortex M4 with 256 KiB of flash and 32 KiB of memory.
+
+Power requirements for the ICC-1 module:
+ICC-1 can be supplied from a regulated power supply down to 1.85V in all conditions.
+During peak load transients, power supply can be up to 145mA when using high power
+mode.
+
+For more information see the [FCC Registration](https://fccid.io/FHO-ICC-1/) with documents.
+
+
 
 You can take out the board, and hook it up to your own lighting solutions. Or, you can flash it with your [own firmware](#custom-firmware), for other purposes.
 
