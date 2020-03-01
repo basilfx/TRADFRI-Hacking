@@ -21,7 +21,7 @@ If we take a simple GU10 light bulb, it contains:
 * LED driver
 * IKEA TRÅDFRI module
 
-The tiny IKEA TRÅDFRI module is used in many of their products, and is actually a small piece of circuit board with pins exposed. This board uses the energy-efficient Silicon Labs [EFR32MG1P132F256GM32](https://www.silabs.com/products/wireless/mesh-networking/efr32mg-mighty-gecko-zigbee-thread-soc/device.efr32mg1p132f256gm32) microcontroller (MCU), which is a ARM Cortex M4 with 256 KiB of flash and 32 KiB of memory.
+The tiny IKEA TRÅDFRI module is used in many of their products, and is actually a small piece of circuit board with pins exposed. This board uses the energy-efficient Silicon Labs [EFR32MG1P132F256GM32](https://www.silabs.com/wireless/zigbee/efr32mg1-series-1-socs/device.efr32mg1p132f256gm32) microcontroller (MCU), which is a ARM Cortex M4 with 256 KiB of flash and 32 KiB of memory.
 
 You can take out the board, and hook it up to your own lighting solutions. Or, you can flash it with your [own firmware](#custom-firmware), for other purposes.
 
@@ -30,7 +30,7 @@ To find relevant products, I have compiled a [list of IKEA TRÅDFRI products](PR
 ## Components
 I have been able to identify the following parts on a IKEA TRÅDFRI module:
 
-* Microcontroller: [EFR32MG1P132F256GM32](https://www.silabs.com/products/wireless/mesh-networking/efr32mg-mighty-gecko-zigbee-thread-soc/device.efr32mg1p132f256gm32)
+* Microcontroller: [EFR32MG1P132F256GM32](https://www.silabs.com/wireless/zigbee/efr32mg1-series-1-socs/device.efr32mg1p132f256gm32)
 * 2 Mbit SPI NOR Flash: [IS25LQ020B](http://www.issi.com/WW/pdf/25LQ025B-512B-010B-020B-040B.pdf)
 * Crystal: 38.4 MHz
 
