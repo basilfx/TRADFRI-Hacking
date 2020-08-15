@@ -133,6 +133,8 @@ Details:
 
 * Battery: 2x CR2032
 
+This system is built around the E931.96 PIR IC, which handles all of the motion detection operations. The main module handles programming the sensor and the radio functionality.
+
 TRÅDFRI Module:
 
 | Module Pin | Signal                           | 
