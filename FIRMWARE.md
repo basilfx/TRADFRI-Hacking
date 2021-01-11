@@ -5,10 +5,15 @@
 * [References](#references)
 
 ## Introduction
-This document describes my findings of the IKEA TRÅDFRI firmware downloaded from the GU10 light bulb (LED1650R5). According to the binary, it contained version 1.2.214. As of writing, this was the latest firmware available.
+This document describes my findings of the IKEA TRÅDFRI firmware downloaded
+from the GU10 light bulb (LED1650R5). According to the binary, it contained
+version 1.2.214. As of writing, this was the latest firmware available.
 
 ## Flash layout
-Inside the [strings](firmwares/ikea/led1650r5-1.2.214.strings), references are made to certain C sources named `bootloader-interface-app.c`. This seems to refer to Silicon Labs application note [AN772](https://www.silabs.com/documents/public/application-notes/an772-using-legacy-application-bootloader.pdf).
+Inside the [strings](firmwares/ikea/led1650r5-1.2.214.strings), references are
+made to certain C sources named `bootloader-interface-app.c`. This seems to
+refer to Silicon Labs application note
+[AN772](https://www.silabs.com/documents/public/application-notes/an772-using-legacy-application-bootloader.pdf).
 
 This application note suggest a flash layout (figure 2.1) that looks like this:
 
@@ -16,19 +21,26 @@ This application note suggest a flash layout (figure 2.1) that looks like this:
 * 0x04000 - 0x????? -> Application data
 * 0x????? - 0x3ffff -> Simulated EEPROM
 
-Looking at a binary map of the firmware (created using [binvis.io](http://binvis.io)), we can clearly identify three regions, of which the second region starts at 0x04000 and the third one at 0x3d000.
+Looking at a binary map of the firmware (created using
+[binvis.io](http://binvis.io)), we can clearly identify three regions, of which
+the second region starts at 0x04000 and the third one at 0x3d000.
 
 [<img src="firmwares/ikea/led1650r5-1.2.214.png" height="384">](firmwares/ikea/led1650r5-1.2.214.png)
 
 ## SPI NOR Flash contents
-The board provides a 2MBit (256KiB) SPI NOR Flash. Using the [SPI Flash Dump](firmwares/riot-os/spi_flash_dump) utility, I dumped the flash contents.
+The board provides a 2MBit (256KiB) SPI NOR Flash. Using the
+[SPI Flash Dump](firmwares/riot-os/spi_flash_dump) utility, I dumped the flash
+contents.
 
-It seems seem that the flash chip is not used for this LED bulb. When dumping its contents, it only reads 0xFF (I have verified this utility against a known working flash chip before using). 
+It seems seem that the flash chip is not used for this LED bulb. When dumping
+its contents, it only reads 0xFF (I have verified this utility against a known
+working flash chip before using).
 
 ## References
 
 ### Source files
-There are several references to C source files. Below an overview of files encountered.
+There are several references to C source files. Below an overview of files
+encountered.
 
 * af-main-soc.c
 * association.c
