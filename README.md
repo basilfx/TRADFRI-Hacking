@@ -60,14 +60,19 @@ An analysis of some firmware versions encountered can be found in
 [FIRMWARE.md](FIRMWARE.md).
 
 ## Development
-The chip is a regular Cortex M4. You can flash it with your own custom
-firmware. As a starting point, you could take a look at [this pull request](https://github.com/RIOT-OS/RIOT/pull/8047)
-for RIOT-OS.
+The ICC-1 and ICC-A-1 have a regular Cortex M4 and the MGM210L has a
+Cortex M33. These architectures are very common, and you can easily flash it
+with your a custom firmware. I've added some firmwares in the
+[firmwares](firmwares/) folder.
 
-I've added some firmwares in the [firmwares](firmwares/) folder.
+As a starting point for your own firmwar, you could take a look at
+[this pull request](https://github.com/RIOT-OS/RIOT/pull/8047) for RIOT-OS. As
+a proof of concept, check out [this YouTube video](https://www.youtube.com/watch?v=yi_Z2WtmdDU)
+I made. In that video, I show how I control the LED connected via a serial
+console.
 
-As a proof of concept, check out [this YouTube video](https://www.youtube.com/watch?v=yi_Z2WtmdDU)
-I made. In there, I show how I control the LED connected via a serial console.
+To get access to development tools for Silicon Labs, you can take a look at
+[Simplicity Studio](https://www.silabs.com/developers/simplicity-studio).
 
 ### EZSP
 It is even possible to load the Silicon Labs EmberZNet Zigbee coordinator
