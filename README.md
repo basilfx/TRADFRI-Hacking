@@ -140,13 +140,13 @@ I have extracted modules from the LED1650R5 (ICC-1) and the LED1837R5 (ICC-A-1).
 
 Front of two TRÅDFRI modules:
 
-[<img src="images/front.jpg" alt="Back of IKEA TRÅDFRI module (ICC-1)" width="384">](images/front.jpg)
-[<img src="images/front2.jpg" alt="Back of IKEA TRÅDFRI module (ICC-A-1)" width="384">](images/front2.jpg)
+[<img src="images/icc-1-front.jpg" alt="Back of IKEA TRÅDFRI module (ICC-1)" width="384">](images/icc-1-front.jpg)
+[<img src="images/icc-a-1-front.jpg" alt="Back of IKEA TRÅDFRI module (ICC-A-1)" width="384">](images/icc-a-front.jpg)
 
 Back of two TRÅDFRI modules:
 
-[<img src="images/back.jpg" alt="Back of IKEA TRÅDFRI module (ICC-1)" width="384">](images/back.jpg)
-[<img src="images/back2.jpg" alt="Back of IKEA TRÅDFRI module (ICC-A-1)" width="384">](images/back2.jpg)
+[<img src="images/icc-1-back.jpg" alt="Back of IKEA TRÅDFRI module (ICC-1)" width="384">](images/icc-1-back.jpg)
+[<img src="images/icc-a-1-back.jpg" alt="Back of IKEA TRÅDFRI module (ICC-A-1)" width="384">](images/icc-a-1-back.jpg)
 
 ### Test setup
 My setup (the small board is a UART isolator):
