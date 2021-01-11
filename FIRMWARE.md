@@ -59,6 +59,12 @@ the second region starts at 0x04000 and the third one at 0x3d000.
 
 [<img src="firmwares/ikea/led1650r5-1.2.214.png" height="384">](firmwares/ikea/led1650r5-1.2.214.png)
 
+For completeness, not that there are also the [following](https://github.com/basilfx/TRADFRI-Hacking/issues/24#issuecomment-651145045)
+memory addresses:
+
+* 0x0fe00000 - 0x0fe00800 -> user data (2 KiB)
+* 0x0fe10000 - 0x0fe12800 -> factory bootloader (10 KiB)
+
 ## SPI NOR Flash contents
 The board provides a 2MBit (256KiB) SPI NOR Flash. Using the
 [SPI Flash Dump](firmwares/riot-os/spi_flash_dump) utility, I dumped the flash
