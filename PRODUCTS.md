@@ -5,7 +5,8 @@
 * [Accessories](#accessories)
 
 ## Introduction
-This list is a collection of the IKEA TRÅDFRI products, and their relevant technical properties. Please help me to update this list.
+This list is a collection of the IKEA TRÅDFRI products, and their relevant
+technical properties. Please help me to update this list.
 
 ## Lighting products
 
@@ -60,7 +61,8 @@ Details:
 
 Teardown:
 
-* The potting material can be easily removed. It does not stick and will crumble in smaller peaces once you remove it.
+* The potting material can be easily removed. It does not stick and will
+  crumble in smaller peaces once you remove it.
 
 Bulb pinout:
 
@@ -74,10 +76,11 @@ Details:
 
 * Socket: GU10
 * Potted: no
+* TRÅDFRI Module: ICC-1
 
 Teardown:
 
-* Use a small flat screw driver to lift up the plastic lens.
+Use a small flat screw driver to lift up the plastic lens.
 
 TRÅDFRI Module pinout:
 
@@ -103,14 +106,66 @@ Details:
 * Socket: GU10
 * Potted: no
 * Glued: yes (lens cover)
+* TRÅDFRI Module: ICC-A-1
 
 Teardown:
 
-* Use a hot air gun to soften the glue that holds the lens to the glass body. Make sure that you heat it up evenly, otherwise the glass will crack. Then use a small blade to lift up the lens.
+Use a hot air gun to soften the glue that holds the lens to the glass body.
+Make sure that you heat it up evenly, otherwise the glass will crack. Then use
+a small blade to lift up the lens (which has small hooks as well).
+
+You can also heat it up in an oven to heat it up evenly. I tried 150 degrees
+Celsius with success.
+
+The LED PCB can be removed by removing the two screws and lifting it up with a
+square hook or similar. The heatspreader is glued with white glue (thermal
+paste?) to the glass housing. I removed it by re-inserting the screw and then
+lifting it with pliers. Do this carefully, or you might cut yourself (been
+there, done that).
+
+The PCB is press-fitted into the GU10 pins. To remove the whole PCB, use a side
+cutter and carefully clamp perpendicular to the dots on the GU10 pins (don't
+try to cut them!). A little pressure makes it then possible to lift the PCB
+from the GU10 pins.
 
 TRÅDFRI Module pinout:
 
 * PB13 -> LED driver
+
+### LED1923R5
+GU10 RGB spot.
+
+Details:
+
+* Socket: GU10
+* Potted: no
+* Glued: yes (lens cover)
+* TRÅDFRI Module: MGM210L22F
+* Rated: 345 lumen, 4.6 W
+
+Teardown:
+
+See [LED1837R5](#led1837r5).
+
+TRÅDFRI Module pinout:
+
+* PA3 -> ? (doesn't seem to influence green)
+* PC2 -> White channel
+* PC3 -> Red channel
+* PC5 -> Blue channel
+
+Power usage:
+
+| Brightness | Color      | Power (W) | Cos φ |
+|------------|------------|-----------|-------|
+| 100%       | Cool White | 2.4       | 0.60  |
+| 50%        | Cool White | 0.4       | 0.25  |
+| 10%        | Cool White | 0.3       | 0.20  |
+| Off        | Cool White | 0.0       | 1.00  |
+
+Measured using a Voltcraft 3000 energy monitor.
+
+[Source](https://github.com/basilfx/TRADFRI-Hacking/issues/39)
 
 ## Accessories
 
@@ -135,11 +190,15 @@ Details:
 
 TRÅDFRI Module (unverified):
 
-* Time selection dial (R13): PA1 (Looks like a potentiometer between R12 high side and a FET to GND enabled directly by PB14.)
-* Day/night selection dial (R15): PB15 (Dito, with resistor R14 and same transistor.)
+* Time selection dial (R13): PA1 (Looks like a potentiometer between R12 high
+  side and a FET to GND enabled directly by PB14.)
+* Day/night selection dial (R15): PB15 (Dito, with resistor R14 and same
+  transistor.)
 * Pairing button (S1): Silicone rubber button puling PA0 directly to GND
 
-* The motion detection dome is connected (one pin directly, one indirectly) to an "E93196C 5090C 9A" labelled 8-pin chip to which also PC10 and PB14 are connected (needs further investigation).
+* The motion detection dome is connected (one pin directly, one indirectly) to
+  an "E93196C 5090C 9A" labelled 8-pin chip to which also PC10 and PB14 are
+  connected (needs further investigation).
 
 * Various test points:
   * VCC: `TP8_1`, `TP8_2`
@@ -148,7 +207,9 @@ TRÅDFRI Module (unverified):
   * PA0: `TP4_1`, `TP4_2`
   * PA1: `TP5_2`
 
-The module is easy to take apart, and debug wires can be soldered on without separating the radio / MCU PCB from the carrier PCB. The carrier board is labelled "D-Sensor-A1-01-A-V2.0".
+The module is easy to take apart, and debug wires can be soldered on without
+separating the radio / MCU PCB from the carrier PCB. The carrier board is
+labelled "D-Sensor-A1-01-A-V2.0".
 
 ### E1526 (Gateway)
 
@@ -158,7 +219,7 @@ Details:
 
 ### ICTC-G-1 (Wireless dimmer)
 
-Pinout: 
+Pinout:
 
 * A0  - LED ON     - TP7
 * A1  - BTN        - TP6
@@ -185,6 +246,7 @@ Details:
 * Potted: no
 
 The output appears to be measured by the module somehow.
+
 Detailed PCB investigation required.
 
 TRÅDFRI Module pinout (incomplete/unverified):
