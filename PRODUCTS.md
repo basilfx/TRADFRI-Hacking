@@ -193,6 +193,12 @@ Details:
 
 * Battery: 2x CR2032
 
+Teardown:
+
+The module is easy to take apart, and debug wires can be soldered on without
+separating the radio / MCU PCB from the carrier PCB. The carrier board is
+labelled "D-Sensor-A1-01-A-V2.0".
+
 TRÅDFRI Module (unverified):
 
 * Time selection dial (R13): PA1 (Looks like a potentiometer between R12 high
@@ -201,9 +207,9 @@ TRÅDFRI Module (unverified):
   transistor.)
 * Pairing button (S1): Silicone rubber button puling PA0 directly to GND
 
-* The motion detection dome is connected (one pin directly, one indirectly) to
-  an "E93196C 5090C 9A" labelled 8-pin chip to which also PC10 and PB14 are
-  connected (needs further investigation).
+The motion detection dome is connected (one pin directly, one indirectly) to
+an "E93196C 5090C 9A" labelled 8-pin chip to which also PC10 and PB14 are
+connected (needs further investigation).
 
 * Various test points:
   * VCC: `TP8_1`, `TP8_2`
@@ -212,23 +218,28 @@ TRÅDFRI Module (unverified):
   * PA0: `TP4_1`, `TP4_2`
   * PA1: `TP5_2`
 
-The module is easy to take apart, and debug wires can be soldered on without
-separating the radio / MCU PCB from the carrier PCB. The carrier board is
-labelled "D-Sensor-A1-01-A-V2.0".
-
 ### E1745 (Motion Sensor)
 
 Details:
 
 * Battery: 2x CR2032
 
+Teardown:
+
+Module is easy to take apart with the right tools, debug wires could be
+soldered on without separating the radio from the carrier PCB. The carrier
+board is labelled "D-SS-X2-01-A-V2.1" and the date printed is 2018-06-05.
+Tradfri module markings visible are Draco1.0_105° and 0255C.
+
 TRÅDFRI Module (unverified):
 
-* Time selection button: Connected to tK3
-* Day/Night selection button: Connected to tK1
-* Pairing button: Connected to tK2
+* tK1 -> Day/Night selection button
+* tK2 -> Pairing button
+* tK3 -> Time selection button
 
-* The motion detection dome is connected (one pin directly, one indirectly) to an "E93196B 0940A 60A" labelled 8-pin chip.
+The motion detection dome is connected (one pin directly, one indirectly) to
+an "E93196B 0940A 60A" labelled 8-pin chip. This appears to be
+[Elmos E931.96](https://www.elmos.com/english/products/sensor-ics/passive-infrared/pyroelectric-sensor-signal-processor-ssp/e93196.html).
 
 * Various test points:
   * VCC: `VDD`
@@ -239,11 +250,6 @@ TRÅDFRI Module (unverified):
   * ???: `AL`
   * ???: `ENT`
   * ???: `TX1`
-
-Module is easy to take apart with the right tools, debug wires could be soldered on without separating the radio from the carrier PCB. The carrier board is labelled "D-SS-X2-01-A-V2.1" and the date printed is 2018-06-05. Tradfri module markings visible are Draco1.0_105° and 0255C.
-
-[![PCB Front Side](https://i.imgur.com/pxidzLil.jpg)](https://i.imgur.com/pxidzLi.jpg) [![PCB Back Side](https://i.imgur.com/jbqvworl.jpg)](https://i.imgur.com/jbqvwor.jpg)   
-Click for full resolution pictures.
 
 ### E1526 (Gateway)
 
