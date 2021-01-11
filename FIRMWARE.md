@@ -9,6 +9,38 @@ This document describes my findings of the IKEA TRÅDFRI firmware downloaded
 from the GU10 light bulb (LED1650R5). According to the binary, it contained
 version 1.2.214. As of writing, this was the latest firmware available.
 
+## Dumping firmware
+To dump (or flash) firmware of a module, you have to use an external debugger.
+I have used a [STK3600](https://www.silabs.com/development-tools/mcu/32-bit/efm32lg-starter-kit)
+in debugger output mode.
+
+You can use software like [JLink](https://www.segger.com/products/debug-probes/j-link/)
+or [OpenOCD](http://www.openocd.org) to flash the target.
+
+### J-Link
+If you use J-Link, you can use the command below to connect to the ICC-1 or
+ICC-A-1 module:
+
+```
+JLink -If SWD -Speed 5000 -Device EFR32MG1PXXXF256
+```
+
+To dump the flash contents, use the command below (0x40000 is 256 KiB):
+
+```
+savebin output.bin 0x0 0x40000
+```
+
+To load a flash from file, use the following command:
+
+```
+loadbin output.bin 0x0
+verifybin output.bin 0x0
+```
+
+I have confirmed that you can dump the flash, erase the device and load it
+again, and the light bulb will still work.
+
 ## Flash layout
 Inside the [strings](firmwares/ikea/led1650r5-1.2.214.strings), references are
 made to certain C sources named `bootloader-interface-app.c`. This seems to
