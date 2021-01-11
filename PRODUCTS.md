@@ -153,10 +153,11 @@ See [LED1837R5](#led1837r5).
 
 TRÅDFRI Module pinout:
 
-* PA3 -> ? (doesn't seem to influence green)
-* PC2 -> White channel
-* PC3 -> Red channel
-* PC5 -> Blue channel
+* PA3 -> ?
+* PC2 -> White channel (PWM1)
+* PC3 -> Red channel (PWM2)
+* PC4 -> Green channel (PWM3)
+* PC5 -> Blue channel (PWM4)
 
 Power usage:
 
