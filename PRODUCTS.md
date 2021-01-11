@@ -65,8 +65,10 @@ Details:
 
 Teardown:
 
-* The potting material can be easily removed. It does not stick and will
-  crumble in smaller peaces once you remove it.
+The potting material can be easily removed. It does not stick and will crumble
+in smaller peaces once you remove it.
+
+[Images](teardowns/LED1537R6/images)
 
 Bulb pinout:
 
@@ -75,6 +77,7 @@ Bulb pinout:
 * 3: Cold leds (-)
 
 ### LED1650R5
+GU10 LED.
 
 Details:
 
@@ -85,6 +88,8 @@ Details:
 Teardown:
 
 Use a small flat screw driver to lift up the plastic lens.
+
+[Images](teardowns/LED1650R5/images)
 
 TRÅDFRI Module pinout:
 
@@ -103,7 +108,7 @@ Power usage:
 Measured using a Voltcraft 3000 energy monitor.
 
 ### LED1837R5
-This seems to be the successor of the LED1650R5.
+GU10 LED. This seems to be the successor of the LED1650R5.
 
 Details:
 
@@ -132,6 +137,8 @@ cutter and carefully clamp perpendicular to the dots on the GU10 pins (don't
 try to cut them!). A little pressure makes it then possible to lift the PCB
 from the GU10 pins.
 
+[Images](teardowns/LED1837R5/images)
+
 TRÅDFRI Module pinout:
 
 * PB13 -> LED driver
@@ -150,6 +157,8 @@ Details:
 Teardown:
 
 See [LED1837R5](#led1837r5).
+
+[Images](teardowns/LED1923R5/images)
 
 TRÅDFRI Module pinout:
 
@@ -199,6 +208,9 @@ The module is easy to take apart, and debug wires can be soldered on without
 separating the radio / MCU PCB from the carrier PCB. The carrier board is
 labelled "D-Sensor-A1-01-A-V2.0".
 
+[Images](teardowns/E1525/images/)
+[Schematics](teardowns/E1525/schematics/)
+
 TRÅDFRI Module:
 
 | Module Pin | Signal                            |
@@ -244,6 +256,8 @@ soldered on without separating the radio from the carrier PCB. The carrier
 board is labelled "D-SS-X2-01-A-V2.1" and the date printed is 2018-06-05.
 Tradfri module markings visible are Draco1.0_105° and 0255C.
 
+[Images](teardowns/E1745/images/)
+
 TRÅDFRI Module (unverified):
 
 * tK1 -> Day/Night selection button
@@ -264,8 +278,6 @@ an "E93196B 0940A 60A" labelled 8-pin chip. This appears to be
   * ???: `ENT`
   * ???: `TX1`
 
-See schematic for additonal information.
-
 ### E1526 (Gateway)
 
 Details:
@@ -273,6 +285,10 @@ Details:
 * Power supply: USB 5V 1A
 
 ### ICTC-G-1 (Wireless dimmer)
+
+Teardown:
+
+[Schematics](teardowns/ICTC-G-1/schematics/)
 
 Pinout:
 
@@ -302,7 +318,10 @@ Details:
 
 The output appears to be measured by the module somehow.
 
-Detailed PCB investigation required.
+Teardown:
+
+[Images](teardowns/ICPSLC24-10NA/images/)
+[Schematics](teardowns/ICPSLC24-10NA/schematics/)
 
 TRÅDFRI Module pinout (incomplete/unverified):
 
@@ -313,12 +332,18 @@ TRÅDFRI Module pinout (incomplete/unverified):
 * PF1: Pin 3 on header
 
 ### ICPSHC24-10EU-IL-1 (10W LED driver/dimmer)
-
 10 Watt Power supply with the 24 V output being controlled by ICPSLC24-10NA
 
-### ICPSHC24-30EU-IL-1 (30W LED driver/dimmer)
+Teardown:
 
+[Images](teardowns/ICPSHC24-10EU-IL-1/images/)
+
+### ICPSHC24-30EU-IL-1 (30W LED driver/dimmer)
 30 Watt Power supply with the 24 V output being controlled by ICPSLC24-10NA
+
+Teardown:
+
+[Images](teardowns/ICPSHC24-30EU-IL-1/images/)
 
 ### L1529 (FLOALT 60x60)
 
