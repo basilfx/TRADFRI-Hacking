@@ -69,6 +69,13 @@ I've added some firmwares in the [firmwares](firmwares/) folder.
 As a proof of concept, check out [this YouTube video](https://www.youtube.com/watch?v=yi_Z2WtmdDU)
 I made. In there, I show how I control the LED connected via a serial console.
 
+### EZSP
+It is even possible to load the Silicon Labs EmberZNet Zigbee coordinator
+firmware on an ICC-1 or ICC-A-1. This allows you to use the module to set-up
+your own ZigBee network.
+
+MattWestb has provided a guide and firmware [here](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Module).
+
 ## Working safely
 If you plan to leave the board in-place, and run your own light bulb firmware,
 never connect external devices (e.g. debugger or serial adapter) to a light
