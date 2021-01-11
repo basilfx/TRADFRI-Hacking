@@ -8,6 +8,10 @@
 This list is a collection of the IKEA TRÅDFRI products, and their relevant
 technical properties. Please help me to update this list.
 
+Always work safe: never work on a mains-powered product when it is still
+plugged in. I cannot be held liable for incomplete or inaccurate information,
+or any damage to yourself or your products.
+
 ## Lighting products
 
 ### LED1545G12
