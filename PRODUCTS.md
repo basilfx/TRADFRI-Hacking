@@ -2,7 +2,26 @@
 
 * [Introduction](#introduction)
 * [Lighting products](#lighting-products)
+  * [LED1545G12](#led1545g12)
+  * [LED1546G12](#led1546g12)
+  * [LED1622G12](#led1622g12)
+  * [LED1623G12](#led1623g12)
+  * [LED1624G9](#led1624g9)
+  * [LED1536G5](#led1536g5)
+  * [LED1537R6](#led1537r6)
+  * [LED1650R5](#led1650r5)
+  * [LED1837R5](#led1837r5)
+  * [LED1923R5](#led1923r5)
 * [Accessories](#accessories)
+  * [E1524](#e1524)
+  * [E1525](#e1525)
+  * [E1745](#e1745)
+  * [E1526](#e1526)
+  * [ICTC-G-1](#ictc-g-1)
+  * [ICPSLC24-10NA](#icpslc24-10na)
+  * [ICPSHC24-10EU-IL-1](#icpshc24-10eu-il-1)
+  * [ICPSHC24-30EU-IL-1](#icpshc24-30eu-il-1)
+  * [L1529](#l1529)
 
 ## Introduction
 This list is a collection of the IKEA TRÅDFRI products, and their relevant
@@ -183,7 +202,8 @@ Measured using a Voltcraft 3000 energy monitor.
 
 ## Accessories
 
-### E1524 (Remote controller)
+### E1524
+Remote controller.
 
 TRÅDFRI Module pinout:
 
@@ -196,7 +216,8 @@ TRÅDFRI Module pinout:
 
 [Source](https://www.heise.de/make/artikel/Ikea-Tradfri-Anleitung-fuer-ein-ESP8266-Lampen-Gateway-3598411.html)
 
-### E1525 (Motion Sensor)
+### E1525
+Motion Sensor.
 
 Details:
 
@@ -243,7 +264,8 @@ The motion detection dome is connected (one pin directly, one indirectly) to
 an "E93196C 5090C 9A" labelled 8-pin chip to which also PC10 and PB14 are
 connected (needs further investigation).
 
-### E1745 (Motion Sensor)
+### E1745
+Motion sensor.
 
 Details:
 
@@ -278,13 +300,15 @@ an "E93196B 0940A 60A" labelled 8-pin chip. This appears to be
   * ???: `ENT`
   * ???: `TX1`
 
-### E1526 (Gateway)
+### E1526
+Ethernet gateway.
 
 Details:
 
 * Power supply: USB 5V 1A
 
-### ICTC-G-1 (Wireless dimmer)
+### ICTC-G-1
+Wireless dimmer.
 
 Teardown:
 
@@ -310,7 +334,8 @@ Pinout:
 * F3  - DBG        - TP4
 *       RESET      - TP5
 
-### ICPSLC24-10NA (LED output controller/dimmer)
+### ICPSLC24-10NA
+LED output controller/dimmer
 
 Details:
 
@@ -331,21 +356,22 @@ TRÅDFRI Module pinout (incomplete/unverified):
 * PF0: Pin 2 on header
 * PF1: Pin 3 on header
 
-### ICPSHC24-10EU-IL-1 (10W LED driver/dimmer)
-10 Watt Power supply with the 24 V output being controlled by ICPSLC24-10NA
+### ICPSHC24-10EU-IL-1
+10 Watt Power supply with the 24 V output being controlled by ICPSLC24-10NA.
 
 Teardown:
 
 [Images](teardowns/ICPSHC24-10EU-IL-1/images/)
 
-### ICPSHC24-30EU-IL-1 (30W LED driver/dimmer)
-30 Watt Power supply with the 24 V output being controlled by ICPSLC24-10NA
+### ICPSHC24-30EU-IL-1
+30 Watt Power supply with the 24 V output being controlled by ICPSLC24-10NA.
 
 Teardown:
 
 [Images](teardowns/ICPSHC24-30EU-IL-1/images/)
 
-### L1529 (FLOALT 60x60)
+### L1529
+FLOALT 60x60
 
 Details:
 
