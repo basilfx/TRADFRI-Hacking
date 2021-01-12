@@ -7,6 +7,7 @@
   * [Other hacks](#other-hacks)
     * [EZSP Zigbee coordinator](#ezsp-zigbee-coordinator)
     * [ZigBee router](#zigbee-router)
+    * [FLOALT brightness hack](#floalt-brightness-hack)
   * [Working safely](#working-safely)
     * [Test setup](#test-setup)
   * [Sources](#sources)
@@ -95,6 +96,11 @@ the TRÅDFRI routers to improve the performance, by adding an external antenna.
 This applies to the ICC-A-1 modules only, but it should be very interesting
 if a the TRÅDFRI routers will use the newer MGM210L modules, because they offer
 a solder pad for an external antenna.
+
+### FLOALT brightness hack
+[zw](https://github.com/zw) has patched the firmware of his FLOALT LED panel to
+have an improved range of brightness levels. A guide to perform the firmware
+patch has been contributed [here](https://github.com/zw/TRADFRI-Hacking/tree/master/hacks/L1527).
 
 ## Working safely
 If you plan to leave the board in-place, and run your own light bulb firmware,
