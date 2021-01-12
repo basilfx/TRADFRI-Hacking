@@ -1,7 +1,9 @@
 # Analysis of firmware
 
 * [Introduction](#introduction)
+* [Dumping firmware](#dumping-firmware)
 * [Flash layout](#flash-layout)
+* [SPI NOR flash contents](#spi-nor-flash-contents)
 * [References](#references)
 
 ## Introduction
@@ -65,8 +67,8 @@ memory addresses:
 * 0x0fe00000 - 0x0fe00800 -> user data (2 KiB)
 * 0x0fe10000 - 0x0fe12800 -> factory bootloader (10 KiB)
 
-## SPI NOR Flash contents
-The board provides a 2MBit (256KiB) SPI NOR Flash. Using the
+## SPI NOR flash contents
+The board provides a 2 MBit (256KiB) SPI NOR Flash. Using the
 [SPI Flash Dump](firmwares/riot-os/spi_flash_dump) utility, I dumped the flash
 contents.
 

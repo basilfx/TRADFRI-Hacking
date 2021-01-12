@@ -1,5 +1,8 @@
 # Modules
 
+* [ICC-1 and ICC-A-1](#icc-1-and-icc-a-1)
+* [MGM210L](#mgm210l)
+
 ## ICC-1 and ICC-A-1
 The ICC-1 is the first module used by many of the first TRÅDFRI products.
 
