@@ -1,14 +1,17 @@
 # Hacking IKEA TRÅDFRI
 
-* [Introduction](#introduction)
-* [TRÅDFRI modules](#tr-dfri-modules)
-* [Firmware analysis](#firmware-analysis)
-* [Custom firmware](#custom-firmware)
-* [Working safely](#working-safely)
-* [Test setup](#test-setup)
-* [Other sources](#other-sources)
-* [License](#license)
-* [Disclaimer](#disclaimer)
+  * [Introduction](#introduction)
+  * [TRÅDFRI modules](#tr-dfri-modules)
+  * [Firmware analysis](#firmware-analysis)
+  * [Development](#development)
+  * [Other hacks](#other-hacks)
+    * [EZSP Zigbee coordinator](#ezsp-zigbee-coordinator)
+    * [ZigBee router](#zigbee-router)
+  * [Working safely](#working-safely)
+    * [Test setup](#test-setup)
+  * [Sources](#sources)
+  * [License](#license)
+  * [Disclaimer](#disclaimer)
 
 ## Introduction
 The [IKEA TRÅDFRI](http://www.ikea.com/us/en/catalog/categories/departments/lighting/36812/)
@@ -74,12 +77,24 @@ console.
 To get access to development tools for Silicon Labs, you can take a look at
 [Simplicity Studio](https://www.silabs.com/developers/simplicity-studio).
 
-### EZSP
-It is even possible to load the Silicon Labs EmberZNet Zigbee coordinator
-firmware on an ICC-1 or ICC-A-1. This allows you to use the module to set-up
-your own ZigBee network.
+## Other hacks
+Some people have came up with alternative uses for the TRÅDFRI modules. Here
+are a few
+
+### EZSP Zigbee coordinator
+It is possible to load the Silicon Labs EmberZNet Zigbee coordinator firmware
+on an ICC-1 or ICC-A-1. This allows you to use the module to set-up your own
+ZigBee network.
 
 MattWestb has provided a guide and firmware [here](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Module).
+
+### ZigBee router
+Several users have [modified](https://community.home-assistant.io/t/sonoff-zbbridge-sonoff-zigbee-bridge-from-itead/187346/88)
+the TRÅDFRI routers to improve the performance, by adding an external antenna.
+
+This applies to the ICC-A-1 modules only, but it should be very interesting
+if a the TRÅDFRI routers will use the newer MGM210L modules, because they offer
+a solder pad for an external antenna.
 
 ## Working safely
 If you plan to leave the board in-place, and run your own light bulb firmware,
@@ -93,7 +108,7 @@ If you want to connect an external device, ensure that it is properly isolated
 I have designed a board that you could use to isolate UART signals. You can
 find it [here](pcbs/isolator).
 
-## Test setup
+### Test setup
 My setup (the small board is a UART isolator):
 
 [<img src="images/setup.jpg" alt="Test setup" width="256">](images/setup.jpg)
@@ -107,7 +122,7 @@ Two soldered development boards that I use nowadays:
 
 [<img src="images/setup3.jpg" alt="Safer test setup" width="256">](images/setup3.jpg)
 
-## Other sources
+## Sources
 I have gathered some information from the following sources:
 
 * [IKEA Trådfri hacking](https://tradfri.blogspot.nl)
