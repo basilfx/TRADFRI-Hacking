@@ -1,6 +1,7 @@
 # List of IKEA TRÅDFRI products
 
 * [Introduction](#introduction)
+* [Product overview](#product-overview)
 * [Lighting products](#lighting-products)
   * [LED1545G12](#led1545g12)
   * [LED1546G12](#led1546g12)
@@ -30,6 +31,39 @@ technical properties. Please help me to update this list.
 Always work safe: never work on a mains-powered product when it is still
 plugged in. I cannot be held liable for incomplete or inaccurate information,
 or any damage to yourself or your products.
+
+## Product overview
+IKEA has following products and product categories for the Smart Home series
+(also called TRADFRI):
+
+* Smart Home Gateway
+* FLOALT (light panel)
+* GUNNARP (ceiling/wall lamp)
+* LEPTITER (spotlight)
+* IRSTA  (worktop lighting)
+* OMLOPP (spotlight)
+* STRÖMLINJE (worktop lighting)
+* SKYDRAG (worktop lighting)
+* FYRTUR / KADRYL (window blinds)
+* 5-button remote control (V1 and V2)
+* 2-button dimmer/switch
+* Wheel dimmer
+* Shortcut button
+* Motion detector (V1 and V2)
+* Signal repeater + battery charger
+* Switching outlet plug/mains
+* LED driver 10 W with 3 connections
+* LED Driver 30 W
+* Bulb E27 1000 lm white/warmwhite
+* Bulb E27 800 lm warmwhite
+* Bulb E27 800 lm white/warmwhite transparent
+* Bulb E27 600 lm color
+* Bulb E14 600 lm color
+* Bulb E14 600 lm white/warmwhite
+* Bulb E27 250 lm filament gold
+* Bulb GU10 400 lm warmwhite
+* Bulb GU10 400 lm white/warmwhite
+* Bulb GU10 350 lm color
 
 ## Lighting products
 
@@ -171,7 +205,7 @@ Details:
 * Potted: no
 * Glued: yes (lens cover)
 * TRÅDFRI Module: MGM210L22F
-* Rated: 345 lumen, 4.6 W
+* Rated: 345 lm, 4.6 W
 
 Teardown:
 
