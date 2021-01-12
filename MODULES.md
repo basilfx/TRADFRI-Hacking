@@ -90,6 +90,8 @@ ARM Cortex M33 with 1024 KiB of flash and 96 KiB of memory.
 Contrary to the previous generation of modules, this board does not have a
 SPI NOR flash chip.
 
+The PCB has room for an U.FL external antenna connector.
+
 ### Pinout
 A pinout can be in the [user manual](https://www.silabs.com/documents/public/data-sheets/mgm210l-datasheet.pdf).
 
