@@ -2,9 +2,11 @@
 
 * [Introduction](#introduction)
 * [Dumping firmware](#dumping-firmware)
+  * [J-Link](#j-link)
 * [Flash layout](#flash-layout)
 * [SPI NOR flash contents](#spi-nor-flash-contents)
 * [References](#references)
+  * [Source files](#source-files)
 
 ## Introduction
 This document describes my findings of the IKEA TRÅDFRI firmware downloaded

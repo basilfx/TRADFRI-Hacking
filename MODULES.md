@@ -1,7 +1,15 @@
 # Modules
 
 * [ICC-1 and ICC-A-1](#icc-1-and-icc-a-1)
+  * [Components](#components)
+  * [Pinout](#pinout)
+  * [JTAG](#jtag)
+  * [Pictures](#pictures)
 * [MGM210L](#mgm210l)
+  * [Components](#components-1)
+  * [Pinout](#pinout-1)
+  * [Flashing using JTAG](#flashing-using-jtag)
+  * [Pictures](#pictures-1)
 
 ## ICC-1 and ICC-A-1
 The ICC-1 is the first module used by many of the first TRÅDFRI products.
