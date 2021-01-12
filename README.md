@@ -1,4 +1,4 @@
-# Hacking the IKEA TRÅDFRI
+# Hacking IKEA TRÅDFRI
 
 * [Introduction](#introduction)
 * [TRÅDFRI modules](#tr-dfri-modules)
@@ -46,8 +46,8 @@ been identified are:
 * MGM210L
 
 [<img src="images/icc-1-front.jpg" alt="Front of IKEA TRÅDFRI module (ICC-1)" width="256">](images/icc-1-front.jpg)
-[<img src="images/icc-a-1-front.jpg" alt="Front of IKEA TRÅDFRI module (ICC-A-1)" width="256">](images/icc-1-front.jpg)
-[<img src="images/mgm210l-front.jpg" alt="Front of IKEA TRÅDFRI module (MGM210L)" width="256">](images/icc-1-front.jpg)
+[<img src="images/icc-a-1-front.jpg" alt="Front of IKEA TRÅDFRI module (ICC-A-1)" width="256">](images/icc-a-1-front.jpg)
+[<img src="images/mgm210l-front.jpg" alt="Front of IKEA TRÅDFRI module (MGM210L)" width="256">](images/mgm210l-front.jpg)
 
 Some other products, such as the line-up of remote controls, have a dedicated
 circuit board that integrate a microcontroller directly (i.e. no separate
