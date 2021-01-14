@@ -25,6 +25,7 @@
   * [L1529](#l1529)
 
 ## Introduction
+
 This list is a collection of the IKEA TRÅDFRI products, and their relevant
 technical properties. Please help me to update this list.
 
@@ -36,41 +37,41 @@ or any damage to yourself or your products.
 IKEA has following products and product categories for the Smart Home series
 (also called TRADFRI):
 
- Name   | Product ID | data | comment
-:------ | ---------- | ---- | :-------
-Smart Home Gateway         | [E1526](#e1526) | USB 5V 1A | Ethernet gateway, An overview of the COAP protocol used by the gateway can be found [here](https://github.com/glenndehaan/ikea-tradfri-coap-docs).
-FLOALT 30x30 (light panel) | L1527           | 670 lm , 12.5 W  |
-FLOALT 60x60 (light panel) | [L1529](#l1529) | 2800 lm, 34 W  |
-FLOALT 30x90 (light panel) | L1528           | 2200 lm, 29 W  |
-GUNNARP (ceiling/wall lamp) |
-LEPTITER (spotlight) |
-IRSTA  (worktop lighting) |
-OMLOPP (spotlight) |
-STRÖMLINJE (worktop lighting) |
-SKYDRAG (worktop lighting) |
-FYRTUR / KADRYL (window blinds) |
-5-button remote control | [E1524](#e1524) | CR2032 | (old)
-5-button remote control | E1810 | CR2032 |
-2-button dimmer/switch  | E1743 | CR2032 |
-Wheel dimmer | | CR2032 |
-Shortcut button | | CR2032 |
-Motion detector | | 2x CR2032 | (old) 
-Motion detector | [E1745](#e1745) | 2x CR2032
+ Name                       | Product ID      | data      | comment
+:-------------------------- | --------------- | --------- | :-------
+Smart Home Gateway          | [E1526](#e1526) | USB 5V 1A | Ethernet gateway, An overview of the COAP protocol used by the gateway can be found [here](https://github.com/glenndehaan/ikea-tradfri-coap-docs).
+FLOALT 30x30 (light panel)  | L1527           |  670 lm, 12.5 W |
+FLOALT 60x60 (light panel)  | [L1529](#l1529) | 2800 lm, 34 W   |
+FLOALT 30x90 (light panel)  | L1528           | 2200 lm, 29 W   |
+GUNNARP (ceiling/wall lamp) | T1828           | 1500 lm, 22 W   |
+LEPTITER (spotlight)        | T1820           |  600 lm,  9 W   |
+IRSTA  (worktop lighting)   |                 |                 | see LED drivers
+OMLOPP (spotlight)          |                 |                 | see LED drivers
+STRÖMLINJE (worktop lighting) |              |                 | see LED drivers
+SKYDRAG (worktop lighting)  |                 |                 | see LED drivers
+FYRTUR / KADRYL (window blinds) |             |
+5-button remote control     | [E1524](#e1524) | CR2032 | (old)
+5-button remote control     | E1810           | CR2032 |
+2-button dimmer/switch      | E1743           | CR2032 |
+Wheel dimmer                |                 | CR2032 |
+Shortcut button             |                 | CR2032 |
+Motion detector             | [E1525](#e1525) | 2x CR2032 | (old) 
+Motion detector             | [E1745](#e1745) | 2x CR2032 | [Images](teardowns/E1745/images/)
 Signal repeater + battery charger | E1746 | USB 5V 1A |
 Switching outlet plug/mains | E1603 |
 Switching outlet plug/mains | E1703 |
 LED driver 10 W with 3 connections | [ICPSHC24-10EU-IL-1](#icpshc24-10eu-il-1) | PWM 24 V (out) | Module: ICPSLC24-10NA. [Images](teardowns/ICPSHC24-10EU-IL-1/images/)
 LED driver 30 W with 9 connections | [ICPSHC24-30EU-IL-1](#icpshc24-30eu-il-1) | PWM 24 V (out) | Module: ICPSLC24-10NA. [Images](teardowns/ICPSHC24-30EU-IL-1/images/)
 Bulb E27 1000 lm white/warmwhite | LED1732G11 | 11 W
-Bulb E27 800 lm warmwhite | LED1836G9 | 8.9 W 
+Bulb E27 800 lm warmwhite   | LED1836G9 | 8.9 W 
 Bulb E27 800 lm white/warmwhite transparent| LED1736G9 | 9.0 W 
-Bulb E27 600 lm color | [LED1624G9](#led1624g9) | 8.6 W
-Bulb E14 600 lm color |
+Bulb E27 600 lm color       | [LED1624G9](#led1624g9) | 8.6 W
+Bulb E14 600 lm color       |
 Bulb E14 600 lm white/warmwhite |
 Bulb E27 250 lm filament gold | LED1842G3 | 2.7 W
-Bulb GU10 400 lm warmwhite |
+Bulb GU10 400 lm warmwhite  |
 Bulb GU10 400 lm white/warmwhite |
-Bulb GU10 350 lm color | [LED1923R5](#led1923r5) | 4.6 W | Module: MGM210L22F
+Bulb GU10 350 lm color      | [LED1923R5](#led1923r5) | 4.6 W | Module: MGM210L22F
 
 
 Standby power consumption is typically 0.5 W.
