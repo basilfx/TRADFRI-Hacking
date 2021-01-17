@@ -41,14 +41,14 @@ IKEA has following products and product categories for the Smart Home series
 :-------------------------- | --------------- | --------- | :-------
 Smart Home Gateway          | [E1526](#e1526) | USB 5V 1A | Ethernet gateway, An overview of the COAP protocol used by the gateway can be found [here](https://github.com/glenndehaan/ikea-tradfri-coap-docs).
 FLOALT 30x30 (light panel)  | L1527           |  670 lm, 12.5 W |
-FLOALT 60x60 (light panel)  | [L1529](#l1529) | 2800 lm, 34 W   |
-FLOALT 30x90 (light panel)  | L1528           | 2200 lm, 29 W   |
+FLOALT 60x60 (light panel)  | [L1529](#l1529) | 2800 lm, 34 W   | The LED driver is called ALMHULT with wireless receiver, 30V,1A
+FLOALT 30x90 (light panel)  | L1528 PWIC034C1000P-EU | 2200 lm, 29 W | The LED driver is called ALMHULT with wireless receiver, 30V,1A
 GUNNARP (ceiling/wall lamp) | T1828           | 1500 lm, 22 W   |
 LEPTITER (spotlight)        | T1820           |  600 lm,  9 W   |
-IRSTA  (worktop lighting)   |                 |                 | see LED drivers
-OMLOPP (spotlight)          |                 |                 | see LED drivers
-STRÖMLINJE (worktop lighting) |              |                 | see LED drivers
-SKYDRAG (worktop lighting)  |                 |                 | see LED drivers
+IRSTA  (worktop lighting)   |                 |                 | see TRADFRI LED drivers
+OMLOPP (worktop + spotlight)|                 |                 | see TRADFRI LED drivers
+STRÖMLINJE (worktop lighting) |              |                 | see TRADFRI LED drivers
+SKYDRAG (worktop lighting)  |                 |                 | see TRADFRI LED drivers
 FYRTUR / KADRYL (window blinds) |             |
 5-button remote control     | [E1524](#e1524) | CR2032 | (old)
 5-button remote control     | E1810           | CR2032 |
@@ -60,8 +60,9 @@ Motion detector             | [E1745](#e1745) | 2x CR2032 | [Images](teardowns/E
 Signal repeater + battery charger | E1746 | USB 5V 1A |
 Switching outlet plug/mains | E1603 |
 Switching outlet plug/mains | E1703 |
-LED driver 10 W with 3 connections | [ICPSHC24-10EU-IL-1](#icpshc24-10eu-il-1) | PWM 24 V (out) | Module: ICPSLC24-10NA. [Images](teardowns/ICPSHC24-10EU-IL-1/images/)
-LED driver 30 W with 9 connections | [ICPSHC24-30EU-IL-1](#icpshc24-30eu-il-1) | PWM 24 V (out) | Module: ICPSLC24-10NA. [Images](teardowns/ICPSHC24-30EU-IL-1/images/)
+TRADFRI LED driver 10 W     | [ICPSHC24-10EU-IL-1](#icpshc24-10eu-il-1) | PWM 24 V (out), 3 connections | Module: ICPSLC24-10NA. [Images](teardowns/ICPSHC24-10EU-IL-1/images/)
+TRADFRI LED driver 30 W     | [ICPSHC24-30EU-IL-1](#icpshc24-30eu-il-1) | PWM 24 V (out), 9 connections | Module: ICPSLC24-10NA. [Images](teardowns/ICPSHC24-30EU-IL-1/images/)
+SILVERGLANS LED driver 30 W | ICPSHC24-30-IL44-1 | PWM 24 V (out), 5 connections, StBy 0.3W | 
 Bulb E27 1000 lm white/warmwhite | LED1732G11 | 11 W
 Bulb E27 800 lm warmwhite   | LED1836G9 | 8.9 W 
 Bulb E27 800 lm white/warmwhite transparent| LED1736G9 | 9.0 W 
@@ -74,7 +75,7 @@ Bulb GU10 400 lm white/warmwhite |
 Bulb GU10 350 lm color      | [LED1923R5](#led1923r5) | 4.6 W | Module: MGM210L22F
 
 
-Standby power consumption is typically 0.5 W.
+Standby power consumption (for bulbs) is typically 0.5 W.
 
 ## Lighting products
 
