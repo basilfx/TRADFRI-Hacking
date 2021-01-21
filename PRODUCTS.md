@@ -49,6 +49,8 @@ IRSTA  (worktop lighting)   |                 |                 | see TRADFRI LE
 OMLOPP (worktop + spotlight)|                 |                 | see TRADFRI LED drivers
 STRÖMLINJE (worktop lighting) |              |                 | see TRADFRI LED drivers
 SKYDRAG (worktop lighting)  |                 |                 | see TRADFRI LED drivers
+JORMLIEN (cupboard door lighting)|            |                 | see TRADFRI LED drivers
+SURTE (shelf door lighting) |                 |                 | see TRADFRI LED drivers
 FYRTUR / KADRYL (window blinds) |             |
 5-button remote control     | [E1524](#e1524) | CR2032 | (old)
 5-button remote control     | E1810           | CR2032 |
