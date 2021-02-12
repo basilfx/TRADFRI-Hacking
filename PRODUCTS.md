@@ -56,7 +56,7 @@ FYRTUR / KADRYL (window blinds) |             |
 5-button remote control     | E1810           | CR2032 |
 2-button dimmer/switch      | E1743           | CR2032 |
 Wheel dimmer                |                 | CR2032 |
-Shortcut button             |                 | CR2032 |
+Shortcut button             | E1812           | CR2032 | 
 Motion detector             | [E1525](#e1525) | 2x CR2032 | (old) 
 Motion detector             | [E1745](#e1745) | 2x CR2032 | [Images](teardowns/E1745/images/)
 Signal repeater + battery charger | E1746 | USB 5V 1A |
