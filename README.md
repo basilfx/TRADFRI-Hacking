@@ -80,7 +80,7 @@ To get access to development tools for Silicon Labs, you can take a look at
 
 ## Other hacks
 Some people have came up with alternative uses for the TRÅDFRI modules. Here
-are a few
+are a few:
 
 ### EZSP Zigbee coordinator
 It is possible to load the Silicon Labs EmberZNet Zigbee coordinator firmware
@@ -101,6 +101,11 @@ a solder pad for an external antenna.
 [zw](https://github.com/zw) has patched the firmware of his FLOALT LED panel to
 have an improved range of brightness levels. A guide to perform the firmware
 patch has been contributed [here](https://github.com/zw/TRADFRI-Hacking/tree/master/hacks/L1527).
+
+### DOOM
+A version of DOOM was port to the IKEA TRÅDFRI MGM210L modules, including a
+custom contrller. The project is documented [here](https://next-hack.com/index.php/2021/06/12/lets-port-doom-to-an-ikea-tradfri-lamp/)
+and the source code can be found [here](https://github.com/next-hack/MG21DOOM).
 
 ## Working safely
 If you plan to leave the board in-place, and run your own light bulb firmware,
