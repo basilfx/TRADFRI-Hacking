@@ -102,6 +102,10 @@ a solder pad for an external antenna.
 have an improved range of brightness levels. A guide to perform the firmware
 patch has been contributed [here](https://github.com/zw/TRADFRI-Hacking/tree/master/hacks/L1527).
 
+### Shortcut Button "no double press" hack
+Simon has [patched the firmware of the E1812 shortcut button](https://github.com/nomis/ikea-tradfri-e1812)
+to disable the double press feature, getting rid of the 400ms delay on single presses.
+
 ### DOOM
 A version of DOOM was port to the IKEA TRÅDFRI MGM210L modules, including a
 custom contrller. The project is documented [here](https://next-hack.com/index.php/2021/06/12/lets-port-doom-to-an-ikea-tradfri-lamp/)
