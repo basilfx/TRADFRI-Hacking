@@ -41,8 +41,8 @@ another one. The JEDEC ID it responds with is `9d 40 12`.
 ### Pinout
 The pinout of both modules is very similar.
 
-[<img src="images/icc-1.png" alt="Back of IKEA TRÅDFRI module (ICC-1)" width="384">](images/icc-1.png)
-[<img src="images/icc-a-1.png" alt="Back of IKEA TRÅDFRI module (ICC-A-1)" width="384">](images/icc-a-1.png)
+[<img src="modules/ICC-1/images/pinout.png" alt="Back of IKEA TRÅDFRI module (ICC-1)" width="384">](modules/ICC-1/images/pinout.png)
+[<img src="modules/ICC-A-1/images/pinout.png" alt="Back of IKEA TRÅDFRI module (ICC-A-1)" width="384">](modules/ICC-A-1/images/pinout.png)
 
 [Marco van Nieuwenhoven](https://diystuff.nl/tradfri/tradfri-zigbee-light-link-module/)
 has provided a very detailed teardown of the ICC-1 module. He traced most of
@@ -66,13 +66,13 @@ I have extracted modules from the LED1650R5 (ICC-1) and the LED1837R5 (ICC-A-1).
 
 Front of two TRÅDFRI modules:
 
-[<img src="images/icc-1-front.jpg" alt="Front of IKEA TRÅDFRI module (ICC-1)" width="384">](images/icc-1-front.jpg)
-[<img src="images/icc-a-1-front.jpg" alt="Front of IKEA TRÅDFRI module (ICC-A-1)" width="384">](images/icc-a-front.jpg)
+[<img src="modules/ICC-1/images/front.jpg" alt="Front of IKEA TRÅDFRI module (ICC-1)" width="384">](modules/ICC-1/images/front.jpg)
+[<img src="modules/ICC-A-1/images/front.jpg" alt="Front of IKEA TRÅDFRI module (ICC-A-1)" width="384">](images/icc-a-front.jpg)
 
 Back of two TRÅDFRI modules:
 
-[<img src="images/icc-1-back.jpg" alt="Back of IKEA TRÅDFRI module (ICC-1)" width="384">](images/icc-1-back.jpg)
-[<img src="images/icc-a-1-back.jpg" alt="Back of IKEA TRÅDFRI module (ICC-A-1)" width="384">](images/icc-a-1-back.jpg)
+[<img src="modules/ICC-1/images/back.jpg" alt="Back of IKEA TRÅDFRI module (ICC-1)" width="384">](modules/ICC-1/images/back.jpg)
+[<img src="modules/ICC-A-1/images/back.jpg" alt="Back of IKEA TRÅDFRI module (ICC-A-1)" width="384">](modules/ICC-A-1/images/back.jpg)
 
 ## MGM210L
 Another module variant was identified by @CableCatDK in [issue 39](https://github.com/basilfx/TRADFRI-Hacking/issues/39).
@@ -108,8 +108,8 @@ To connect to an external JTAG/SWD debugger, connect as follows:
 ### Pictures
 Front the TRÅDFRI module:
 
-[<img src="images/mgm210l-front.jpg" alt="Back of IKEA TRÅDFRI module (ICC-1)" width="384">](images/mgm210l-front.jpg)
+[<img src="modules/MGM210L/images/front.jpg" alt="Back of IKEA TRÅDFRI module (ICC-1)" width="384">](modules/MGM210L/images/front.jpg)
 
 Back of the TRÅDFRI module:
 
-[<img src="images/mgm210l-back.jpg" alt="Back of IKEA TRÅDFRI module (ICC-1)" width="384">](images/mgm210l-back.jpg)
+[<img src="modules/MGM210L/images/back.jpg" alt="Back of IKEA TRÅDFRI module (ICC-1)" width="384">](modules/MGM210L/images/back.jpg)

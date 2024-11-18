@@ -36,9 +36,8 @@ You can take out the board, and hook it up to your own lighting solutions. Or,
 you can flash it with your [own firmware](#custom-firmware), for other purposes.
 
 To find relevant products, I have compiled a list of IKEA TRÅDFRI products in
-[PRODUCTS.md](PRODUCTS.md) (please help me to update this list). Several
-products have been opened up. Teardown pictures can be found in the
-[teardowns](teardowns/) folder.
+[PRODUCTS.md](PRODUCTS.md). A teardown of has also been provided for some
+products.
 
 ## TRÅDFRI modules
 So far, a few variations of the TRÅDFRI modules have been identified. They are
@@ -49,9 +48,9 @@ been identified are:
 * ICC-A-1
 * MGM210L
 
-[<img src="images/icc-1-front.jpg" alt="Front of IKEA TRÅDFRI module (ICC-1)" width="256">](images/icc-1-front.jpg)
-[<img src="images/icc-a-1-front.jpg" alt="Front of IKEA TRÅDFRI module (ICC-A-1)" width="256">](images/icc-a-1-front.jpg)
-[<img src="images/mgm210l-front.jpg" alt="Front of IKEA TRÅDFRI module (MGM210L)" width="256">](images/mgm210l-front.jpg)
+[<img src="modules/ICC-1/images/front.jpg" alt="Front of IKEA TRÅDFRI module (ICC-1)" width="256">](modules/ICC-1/images/front.jpg)
+[<img src="modules/ICC-A-1/images/front.jpg" alt="Front of IKEA TRÅDFRI module (ICC-A-1)" width="256">](modules/ICC-A-1/images/front.jpg)
+[<img src="modules/MGM210L/images/front.jpg" alt="Front of IKEA TRÅDFRI module (MGM210L)" width="256">](modules/MGM210L/images/front.jpg)
 
 Some other products, such as the line-up of remote controls, have a dedicated
 circuit board that integrate a microcontroller directly (i.e. no separate
