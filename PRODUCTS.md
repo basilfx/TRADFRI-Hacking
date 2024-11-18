@@ -121,7 +121,7 @@ Teardown:
 The potting material can be easily removed. It does not stick and will crumble
 in smaller peaces once you remove it.
 
-[Images](teardowns/LED1537R6/images)
+[Images](products/LED1537R6/images)
 
 Bulb pinout:
 
@@ -142,7 +142,7 @@ Teardown:
 
 Use a small flat screw driver to lift up the plastic lens.
 
-[Images](teardowns/LED1650R5/images)
+[Images](products/LED1650R5/images)
 
 TRÅDFRI Module pinout:
 
@@ -190,7 +190,7 @@ cutter and carefully clamp perpendicular to the dots on the GU10 pins (don't
 try to cut them!). A little pressure makes it then possible to lift the PCB
 from the GU10 pins.
 
-[Images](teardowns/LED1837R5/images)
+[Images](products/LED1837R5/images)
 
 TRÅDFRI Module pinout:
 
@@ -211,7 +211,7 @@ Teardown:
 
 See [LED1837R5](#led1837r5).
 
-[Images](teardowns/LED1923R5/images)
+[Images](products/LED1923R5/images)
 
 TRÅDFRI Module pinout:
 
@@ -263,8 +263,8 @@ The module is easy to take apart, and debug wires can be soldered on without
 separating the radio / MCU PCB from the carrier PCB. The carrier board is
 labelled "D-Sensor-A1-01-A-V2.0".
 
-[Images](teardowns/E1525/images/)
-[Schematics](teardowns/E1525/schematics/)
+[Images](products/E1525/images/)
+[Schematics](products/E1525/schematics/)
 
 TRÅDFRI Module:
 
@@ -312,7 +312,7 @@ soldered on without separating the radio from the carrier PCB. The carrier
 board is labelled "D-SS-X2-01-A-V2.1" and the date printed is 2018-06-05.
 Tradfri module markings visible are Draco1.0_105° and 0255C.
 
-[Images](teardowns/E1745/images/)
+[Images](products/E1745/images/)
 
 TRÅDFRI Module (unverified):
 
@@ -351,7 +351,7 @@ Wireless dimmer.
 
 Teardown:
 
-[Schematics](teardowns/ICTC-G-1/schematics/)
+[Schematics](products/ICTC-G-1/schematics/)
 
 Pinout:
 
@@ -384,8 +384,8 @@ The output appears to be measured by the module somehow.
 
 Teardown:
 
-[Images](teardowns/ICPSLC24-10NA/images/)
-[Schematics](teardowns/ICPSLC24-10NA/schematics/)
+[Images](products/ICPSLC24-10NA/images/)
+[Schematics](products/ICPSLC24-10NA/schematics/)
 
 TRÅDFRI Module pinout (incomplete/unverified):
 
@@ -400,14 +400,14 @@ TRÅDFRI Module pinout (incomplete/unverified):
 
 Teardown:
 
-[Images](teardowns/ICPSHC24-10EU-IL-1/images/)
+[Images](products/ICPSHC24-10EU-IL-1/images/)
 
 ### ICPSHC24-30EU-IL-1
 30 Watt Power supply with the 24 V output being controlled by ICPSLC24-10NA.
 
 Teardown:
 
-[Images](teardowns/ICPSHC24-30EU-IL-1/images/)
+[Images](products/ICPSHC24-30EU-IL-1/images/)
 
 ### L1529
 FLOALT 60x60
