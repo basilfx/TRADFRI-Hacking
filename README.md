@@ -145,7 +145,7 @@ I have gathered some information from the following sources:
 * [Trådfri Wall switch](https://wiki.iptables.dk/TR%C3%85DFRI_wall_switch)
 
 ## License
-Creative Commons BY Attribution 4.0 International
+See the [LICENSE.md](LICENSE.md) file (CC-BY-4.0).
 
 ## Disclaimer
 This page and its content is not affiliated with IKEA of Sweden AB.
