@@ -110,32 +110,6 @@ A version of DOOM was port to the IKEA TRÅDFRI MGM210L modules, including a
 custom contrller. The project is documented [here](https://next-hack.com/index.php/2021/06/12/lets-port-doom-to-an-ikea-tradfri-lamp/)
 and the source code can be found [here](https://github.com/next-hack/MG21DOOM).
 
-## Working safely
-If you plan to leave the board in-place, and run your own light bulb firmware,
-never connect external devices (e.g. debugger or serial adapter) to a light
-bulb that is plugged in. Due to different voltage levels, you could destroy
-your devices.
-
-If you want to connect an external device, ensure that it is properly isolated
-(e.g. using a optocoupler).
-
-I have designed a board that you could use to isolate UART signals. You can
-find it [here](pcbs/isolator).
-
-### Test setup
-My setup (the small board is a UART isolator):
-
-[<img src="images/setup.jpg" alt="Test setup" width="256">](images/setup.jpg)
-
-My safer setup, including debugger (LED is connected to same pin as it would in
-the GU10 light):
-
-[<img src="images/setup2.jpg" alt="Safer test setup" width="256">](images/setup2.jpg)
-
-Two soldered development boards that I use nowadays:
-
-[<img src="images/setup3.jpg" alt="Safer test setup" width="256">](images/setup3.jpg)
-
 ## Sources
 I have gathered some information from the following sources:
 
