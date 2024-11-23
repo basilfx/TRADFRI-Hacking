@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name IKEA)(type KiCad)(uri "$(KIPRJMOD)/IKEA.pretty")(options "")(descr ""))
+  (version 7)
+  (lib (name "IKEA")(type "KiCad")(uri "$(KIPRJMOD)/footprints/IKEA.pretty")(options "")(descr ""))
 )

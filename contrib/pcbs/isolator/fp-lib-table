@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SMD_Packages")(type "KiCad")(uri "${KIPRJMOD}/footprints/SMD_Packages.pretty")(options "")(descr ""))
+)
