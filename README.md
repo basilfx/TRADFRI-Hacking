@@ -116,7 +116,7 @@ I have gathered some information from the following sources:
 * [IKEA Trådfri hacking](https://tradfri.blogspot.nl)
 * [Trådfri: ESP8266-Lampen-Gateway](https://www.heise.de/make/artikel/Ikea-Tradfri-Anleitung-fuer-ein-ESP8266-Lampen-Gateway-3598411.html)
 * [Trådfri Zigbee Light Link module](https://diystuff.nl/tradfri/tradfri-zigbee-light-link-module)
-* [Trådfri Wall switch](https://wiki.iptables.dk/TR%C3%85DFRI_wall_switch)
+* [Trådfri Wall switch](https://wiki.permejdal.dk/TR%C3%85DFRI_wall_switch)
 
 ## License
 See the [LICENSE.md](LICENSE.md) file (CC-BY-4.0).
