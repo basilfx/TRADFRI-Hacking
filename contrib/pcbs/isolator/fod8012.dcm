@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP FOD8012
-D Random Phase Opto-Triac, Vdrm 600V, Ift 0.75mA, Itm 300mA, DIP6
-K Opto-Triac Opto Triac Random Phase
-F http://www.fairchildsemi.com/ds/FO/FOD4218.pdf
-$ENDCMP
-#
-#End Doc Library

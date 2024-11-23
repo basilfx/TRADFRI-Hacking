@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name Devboard-rescue)(type Legacy)(uri ${KIPRJMOD}/Devboard-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "ikea")(type "KiCad")(uri "${KIPRJMOD}/symbols/ikea.kicad_sym")(options "")(descr ""))
 )
