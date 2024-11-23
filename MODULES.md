@@ -1,5 +1,6 @@
 # Modules
 
+* [Types of modules](#types-of-modules)
 * [ICC-1 and ICC-A-1](#icc-1-and-icc-a-1)
   * [Components](#components)
   * [Pinout](#pinout)
@@ -10,6 +11,17 @@
   * [Pinout](#pinout-1)
   * [Flashing using JTAG](#flashing-using-jtag)
   * [Pictures](#pictures-1)
+
+## Types of modules
+Many TRÅDFRI products make use of a common board that houses the
+microcontroller that is responsible for running the firmware and ZigBee.
+This makes it for IKEA much easier to reuse hardware, especially from a
+certification perspective.
+
+However, several other TRÅDFRI products have the microcontroller integrated on
+the 'core' product board, which makes it possible to design smaller products,
+or products with a different form factor. However, they are less usable when
+you want to repurpose them. Therefore, they are not part of the sections below.
 
 ## ICC-1 and ICC-A-1
 The ICC-1 is the first module used by many of the first TRÅDFRI products.
@@ -24,8 +36,9 @@ pin, but used to enable the SPI NOR Flash.
 
 ### Components
 Both modules use the same energy-efficient microcontroller manufactured by
-Silicon Labs. It is an EFR32 Mighty Gecko (Series 1), based around an ARM Cortex M4 with
-256 KiB of flash and 32 KiB of memory.
+Silicon Labs. It is an EFR32 Mighty Gecko (Series 1), based around an
+ARM Cortex M4 with 256 KiB of flash and 32 KiB of memory. This makes it a very
+capable microcontroller.
 
 I have been able to identify the following parts:
 
@@ -58,8 +71,14 @@ To connect to an external JTAG/SWD debugger, connect as follows:
 * GND -> GND
 * VCC -> VCC (3V3)
 
-In my case, I could leave the module in the light bulb, but for flashing I
-provided my own power supply by hooking it up to the VCC line directly.
+The first ICC-1 modules I salvaged, was part of a light bulb. I could leave it
+in-place for flashing, as long as I provided my own power supply by hooking it
+up to the VCC line directly (NEVER flash a module that is connected to live
+power).
+
+[OpenOCD](https://github.com/sysprogs/openocd/blob/master/tcl/target/efm32.cfg)
+and [J-Link](https://wiki.segger.com/EFM32) are two popular debuggers that can
+be used for flashing and debugging.
 
 ### Pictures
 I have extracted modules from the LED1650R5 (ICC-1) and the LED1837R5 (ICC-A-1).
@@ -104,6 +123,10 @@ To connect to an external JTAG/SWD debugger, connect as follows:
 * RESETn -> RESETn
 * GND -> GND
 * VCC -> VCC (3V3)
+
+Support for the EFR32MG21 (and Series 2 in general) is limited. There exists a
+separate [fork](https://github.com/knieriem/openocd-efm32-series2) for OpenOCD.
+J-Link offers support, but requires more-expensive hardware to get started.
 
 ### Pictures
 Front the TRÅDFRI module:
