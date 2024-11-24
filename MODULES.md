@@ -14,7 +14,7 @@
 
 ## Types of modules
 Many TRÅDFRI products make use of a common board that houses the
-microcontroller that is responsible for running the firmware and ZigBee.
+microcontroller that is responsible for running the firmware and Zigbee.
 This makes it for IKEA much easier to reuse hardware, especially from a
 certification perspective.
 

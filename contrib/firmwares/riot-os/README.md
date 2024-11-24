@@ -26,3 +26,9 @@ yet.
 * spi_flash_dump - application to dump the SPI flash contents
 * spi_flash_identify - application to identify the SPI flash chip using it
   JEDEC flash identifier.
+
+## Demo
+Check out [this](https://www.youtube.com/watch?v=yi_Z2WtmdDU) YouTube video
+that demonstrates the default application running on a light bulb.
+
+This demo is the first third-party firmware running on a IKEA TRÅDFRI product.

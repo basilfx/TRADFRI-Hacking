@@ -1,23 +1,24 @@
 # Hacking IKEA TRÅDFRI
 
   * [Introduction](#introduction)
-  * [TRÅDFRI modules](#tr-dfri-modules)
-  * [Firmware analysis](#firmware-analysis)
-  * [Development](#development)
+  * [TRÅDFRI modules](#trådfri-modules)
+  * [Product teardowns](#product-teardowns)
+  * [Firmware hacking](#firmware-hacking)
   * [Other hacks](#other-hacks)
     * [EZSP Zigbee coordinator](#ezsp-zigbee-coordinator)
-    * [ZigBee router](#zigbee-router)
+    * [Zigbee router](#zigbee-router)
     * [FLOALT brightness hack](#floalt-brightness-hack)
-  * [Working safely](#working-safely)
-    * [Test setup](#test-setup)
+    * [Shortcut button "no double press" hack](#shortcut-button-no-double-press-hack)
+    * [DOOM](#doom)
   * [Sources](#sources)
   * [License](#license)
+  * [Safety](#safety)
   * [Disclaimer](#disclaimer)
 
 ## Introduction
 The [IKEA TRÅDFRI](http://www.ikea.com/us/en/catalog/categories/departments/lighting/36812/)
 family of products provide you with several home automation solutions that
-interconnect using [ZigBee Light Link](http://www.zigbee.org/zigbee-for-developers/applicationstandards/zigbee-light-link/).
+interconnect using [Zigbee Light Link](http://www.zigbee.org/zigbee-for-developers/applicationstandards/zigbee-light-link/).
 While the line-up initially only included lighting products, it includes power
 switches and wireless window blinds as well.
 
@@ -32,8 +33,14 @@ The IKEA TRÅDFRI module is used in many of their products, and is actually
 a small piece of circuit board with a few GPIO pins exposed. These pins are
 then used to control the LED driver.
 
-You can take out the board, and hook it up to your own lighting solutions. Or,
-you can flash it with your [own firmware](#custom-firmware), for other purposes.
+The goal of this project is to provide information about the IKEA TRÅDFRI
+modules and products, so you can start hacking them. For example:
+
+* Take apart a light bulb, and use the module board, to control your own
+  lighting solutions.
+* Create custom boards for wall-mounted switches based on their dimmer buttons.
+* Patch the firmware to dimming capabilies.
+* Repurposing the modules by writing your own firmware.
 
 To find relevant products, I have compiled a list of IKEA TRÅDFRI products in
 [PRODUCTS.md](PRODUCTS.md). A teardown of has also been provided for some
@@ -56,26 +63,31 @@ Some other products, such as the line-up of remote controls, have a dedicated
 circuit board that integrate a microcontroller directly (i.e. no separate
 module board).
 
-More details and pictures on these modules can be found in [MODULES.md](MODULES.md).
+More details and pictures on these modules can be found in
+[MODULES.md](MODULES.md).
 
-## Firmware analysis
-An analysis of some firmware versions encountered can be found in
-[FIRMWARE.md](FIRMWARE.md).
+## Product teardowns
+Be sure to check out the [PRODUCTS.md](PRODUCTS.md) on more details on products
+that have been reversed-engineered. There are product teardown photos,
+schematics, firmware dumps, firmware analysis and more.
 
-## Development
-The ICC-1 and ICC-A-1 have a regular Cortex M4 and the MGM210L has a
-Cortex M33. These architectures are very common, and you can easily flash it
-with your a custom firmware. I've added some firmwares in the
-[firmwares](firmwares/) folder.
+If you have any products not in the list, please contribute! If you have any
+teardown photos, firmware files or other information, I'd like to add it to the
+list.
 
-As a starting point for your own firmwar, you could take a look at
-[this pull request](https://github.com/RIOT-OS/RIOT/pull/8047) for RIOT-OS. As
-a proof of concept, check out [this YouTube video](https://www.youtube.com/watch?v=yi_Z2WtmdDU)
-I made. In that video, I show how I control the LED connected via a serial
-console.
+## Firmware hacking
+The TRÅDFRI products use an ARM Cortex M-series microcontroller. There are
+plenty of tools for these types of microcontrollers to get started on reversing
+firmware files and write your own firmwares.
 
-To get access to development tools for Silicon Labs, you can take a look at
-[Simplicity Studio](https://www.silabs.com/developers/simplicity-studio).
+* Find dumps of firmware files in the OTA [folder](contrib/firmwares/ikea-ota).
+* Checkout the [RIOT-OS](contrib/firmwares/riot-os) folder for more information
+  on custom firmware development. You can use this as a starting point.
+* Reference information on dumping firmware images [here](docs/firmware_dumping/README.md).
+* Learn how to inspect the firmware for reverse-enginering in [this](docs/firmware_reversing)
+  folder.
+* Build a [development board](contrib/pcbs/devboard) for easy access to a
+  TRÅDFRI module's pins.
 
 ## Other hacks
 Some people have came up with alternative uses for the TRÅDFRI modules. Here
@@ -84,11 +96,11 @@ are a few:
 ### EZSP Zigbee coordinator
 It is possible to load the Silicon Labs EmberZNet Zigbee coordinator firmware
 on an ICC-1 or ICC-A-1. This allows you to use the module to set-up your own
-ZigBee network.
+Zigbee network.
 
 MattWestb has provided a guide and firmware [here](https://github.com/MattWestb/IKEA-TRADFRI-ICC-A-1-Module).
 
-### ZigBee router
+### Zigbee router
 Several users have [modified](https://community.home-assistant.io/t/sonoff-zbbridge-sonoff-zigbee-bridge-from-itead/187346/88)
 the TRÅDFRI routers to improve the performance, by adding an external antenna.
 
@@ -101,9 +113,10 @@ a solder pad for an external antenna.
 have an improved range of brightness levels. A guide to perform the firmware
 patch has been contributed [here](https://github.com/zw/TRADFRI-Hacking/tree/master/hacks/L1527).
 
-### Shortcut Button "no double press" hack
-Simon has [patched the firmware of the E1812 shortcut button](https://github.com/nomis/ikea-tradfri-e1812)
-to disable the double press feature, getting rid of the 400ms delay on single presses.
+### Shortcut button "no double press" hack
+Simon has [patched](https://github.com/nomis/ikea-tradfri-e1812) the firmware
+of the E1812 shortcut button to disable the double press feature, getting rid
+of the 400ms delay on single presses.
 
 ### DOOM
 A version of DOOM was port to the IKEA TRÅDFRI MGM210L modules, including a
@@ -113,16 +126,21 @@ and the source code can be found [here](https://github.com/next-hack/MG21DOOM).
 ## Sources
 I have gathered some information from the following sources:
 
-* [IKEA Trådfri hacking](https://tradfri.blogspot.nl)
-* [Trådfri: ESP8266-Lampen-Gateway](https://www.heise.de/make/artikel/Ikea-Tradfri-Anleitung-fuer-ein-ESP8266-Lampen-Gateway-3598411.html)
-* [Trådfri Zigbee Light Link module](https://diystuff.nl/tradfri/tradfri-zigbee-light-link-module)
-* [Trådfri Wall switch](https://wiki.permejdal.dk/TR%C3%85DFRI_wall_switch)
+* [IKEA TRÅDFRI hacking](https://tradfri.blogspot.nl)
+* [TRÅDFRI: ESP8266-Lampen-Gateway](https://www.heise.de/make/artikel/Ikea-Tradfri-Anleitung-fuer-ein-ESP8266-Lampen-Gateway-3598411.html)
+* [TRÅDFRI Zigbee Light Link module](https://diystuff.nl/tradfri/tradfri-zigbee-light-link-module)
+* [TRÅDFRI Wall switch](https://wiki.permejdal.dk/TR%C3%85DFRI_wall_switch)
 
 ## License
 See the [LICENSE.md](LICENSE.md) file (CC-BY-4.0).
+
+## Safety
+Some TRÅDFRI products are mains powered. If you don't know what that means, then
+stop right now. Please read [this](docs/working_safely) for more information on
+working safely on mains-connected devices.
 
 ## Disclaimer
 This page and its content is not affiliated with IKEA of Sweden AB.
 
 The purpose of this project is to learn and improve using reverse engineering
-techniques. Use this information on your own risk.
+techniques. Use this information on your own risk. You will void your warranty.
