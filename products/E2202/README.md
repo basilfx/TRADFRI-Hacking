@@ -1,10 +1,14 @@
-# BADRING Water leakage sensor (E2202)
+# E2202
+BADRING Water leakage sensor.
 
-Powered by a single AAA cell, boosted to 3.0V by the onboard DC-DC converter. The inner plastic retainer is held with plastic clips, which makes the device very easy to disassemble.
+## Details
+Powered by a single AAA cell, boosted to 3.0V by the onboard DC-DC converter.
+The inner plastic retainer is held with plastic clips, which makes the device
+very easy to disassemble.
 
 Teardown images can be found with FCC ID FHO-E2202.
 
-## Hardware info
+## Parts
 
 - U1: EFR32MG21A010F1024IM32
 - Q1: 2N3904
@@ -26,4 +30,6 @@ Teardown images can be found with FCC ID FHO-E2202.
 
 ## Notes
 
-The device is sending out some pulses on PIN1 and listening for a signal on PIN2. Frequency is unknown, voltage is the same as VCC (3.0V). The chip is locked, mass erase is required to load your own code to it.
+The device is sending out some pulses on PIN1 and listening for a signal on
+PIN2. Frequency is unknown, voltage is the same as VCC (3.0V). The chip is
+locked, mass erase is required to load your own code to it.

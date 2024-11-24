@@ -1,13 +1,18 @@
 # E2013
-IKEA PARASOLL Door/window sensor
+IKEA PARASOLL Door/window sensor.
 
-# Battery
+## Details
+
+### Battery
 This sensor runs off a 1.2 or 1.5 AAA battery, which increases the size of the
 sensor.
 
 When connecting it to a 3V power supply, it does work. It might be possible
 that the DC-DC converter can be omitted in this case. However, the hall-effect
 sensor emits a higher voltage level that represents a closed state.
+
+## Teardown
+* [Images](images)
 
 ## Parts
 * R1 - 1 M
