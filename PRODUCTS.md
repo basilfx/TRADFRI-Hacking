@@ -83,6 +83,7 @@ IKEA has following products and product categories for the Smart Home series
 
 ### Others
 
+* [E1836](products/E1836) - ÅSKVÄDER on/off button
 * [ICPSHC24-10EU-IL-1](products/ICPSHC24-10EU-IL-1) - Driver for wireless control, 10 W
 * [ICPSHC24-30EU-IL-1](products/ICPSHC24-30EU-IL-1) - Driver for wireless control, 30 W
 * [ICPSLC24-10NA](products/ICPSLC24-10NA) - LED output controller/dimmer
