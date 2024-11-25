@@ -51,13 +51,14 @@ IKEA has following products and product categories for the Smart Home series
 ### Lighting
 
 * [L1529](products/L1529) - FLOALT LED light panel
+* [L2112](products/L2112) - ORMANÄS LED strip, color/white spectrum, 4 m
 * [LED1536G5](products/LED1536G5) - TRÅDFRI bulb E12/E14, white spectrum, globe, opal, 400 lm
 * [LED1537R6](products/LED1537R6) - TRÅDFRI bulb GU10, white spectrum, 400 lm
 * [LED1545G12](products/LED1545G12) - TRÅDFRI bulb E26/E27, white spectrum, globe, opal, 980 lm
 * [LED1546G12](products/LED1546G12) - TRÅDFRI bulb E26/E27, white spectrum, globe, clear, 950 lm
 * [LED1622G12](products/LED1622G12) - TRÅDFRI bulb E26, white, globe, opal, 1000 lm.
 * [LED1623G12](products/LED1623G12) - TRÅDFRI bulb E27, white, globe, opal, 1000 lm
-* [LED1624G9](products/LED1624G9) - TRÅDFRI bulb E12/E14/E26/E27, color/white spectum, globe, opal, 600 lm
+* [LED1624G9](products/LED1624G9) - TRÅDFRI bulb E12/E14/E26/E27, color/white spectrum, globe, opal, 600 lm
 * [LED1650R5](products/LED1650R5) - TRÅDFRI bulb GU10, white, 400 lm
 * [LED1837R5](products/LED1837R5) - TRÅDFRI bulb GU10, warm white, 400 lm
 * [LED1923R5](products/LED1923R5) - TRÅDFRI bulb GU10, color/white spectrum, 345 lm
