@@ -1,5 +1,10 @@
 # ICPSHC24-30EU-IL-1
-30 Watt Power supply with the 24 V output being controlled by ICPSLC24-10NA.
+Driver for wireless control, 30 W
 
 ## Teardown
+
 * [Images](images)
+
+## Sources
+
+* https://www.ikea.com/us/en/manuals/tradfri-driver-for-wireless-control-grey__AA-2344761-1-100.pdf

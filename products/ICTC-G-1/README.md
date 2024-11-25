@@ -1,9 +1,8 @@
 # ICTC-G-1
-Wireless dimmer.
+TRÅDFRI wireless dimmer.
 
 ## Teardown
 
-## Teardown
 * [Schematics](schematics)
 
 ## Pinout
@@ -25,3 +24,7 @@ Wireless dimmer.
 * F2  - SWO        - TP3
 * F3  - DBG        - TP4
 *       RESET      - TP5
+
+## Sources
+
+* https://www.ikea.com/us/en/manuals/tradfri-dimming-kit__AA-1954744-1_pub.pdf

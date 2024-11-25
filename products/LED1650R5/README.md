@@ -1,5 +1,5 @@
 # LED1650R5
-GU10 LED.
+TRÅDFRI bulb GU10, white, 400 lm
 
 ## Details
 

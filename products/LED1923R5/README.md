@@ -1,5 +1,5 @@
 # LED1923R5
-GU10 RGB spot.
+TRÅDFRI bulb GU10, color/white spectrum, 345 lm
 
 ## Details
 

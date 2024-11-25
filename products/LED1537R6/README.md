@@ -1,4 +1,5 @@
 # LED1537R6
+TRÅDFRI bulb GU10, white spectrum, 400 lm.
 
 ## Details
 

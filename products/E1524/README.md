@@ -1,5 +1,5 @@
 # E1524
-Remote controller.
+TRÅDFRI remote controller.
 
 ## Pinout
 
@@ -14,4 +14,5 @@ Remote controller.
 
 ## Sources
 
+* https://www.ikea.com/us/en/manuals/tradfri-remote-control__AA-2144721-1_pub.pdf
 * https://www.heise.de/make/artikel/Ikea-Tradfri-Anleitung-fuer-ein-ESP8266-Lampen-Gateway-3598411.html

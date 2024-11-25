@@ -1,5 +1,7 @@
 # LED1837R5
-GU10 LED. This seems to be the successor of the LED1650R5.
+TRÅDFRI bulb GU10, warm white, 400 lm
+
+This seems to be the successor of the LED1650R5.
 
 ## Details
 

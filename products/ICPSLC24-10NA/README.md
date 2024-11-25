@@ -8,6 +8,7 @@ LED output controller/dimmer
 The output appears to be measured by the module somehow.
 
 ## Teardown
+
 * [Images](images)
 * [Schematics](schematics)
 

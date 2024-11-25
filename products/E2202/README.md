@@ -1,5 +1,5 @@
 # E2202
-BADRING Water leakage sensor.
+BADRING water leakage sensor.
 
 ## Details
 Powered by a single AAA cell, boosted to 3.0V by the onboard DC-DC converter.
@@ -33,3 +33,7 @@ Teardown images can be found with FCC ID FHO-E2202.
 The device is sending out some pulses on PIN1 and listening for a signal on
 PIN2. Frequency is unknown, voltage is the same as VCC (3.0V). The chip is
 locked, mass erase is required to load your own code to it.
+
+## Sources
+
+* https://www.ikea.com/us/en/manuals/badring-sensor-foer-vattenlaeckage-smart__AA-2426054-2-2.pdf

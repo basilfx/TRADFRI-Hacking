@@ -50,39 +50,39 @@ IKEA has following products and product categories for the Smart Home series
 
 ### Lighting
 
-* [L1529](products/L1529)
-* [LED1536G5](products/LED1536G5)
-* [LED1537R6](products/LED1537R6)
-* [LED1545G12](products/LED1545G12)
-* [LED1546G12](products/LED1546G12)
-* [LED1622G12](products/LED1622G12)
-* [LED1623G12](products/LED1623G12)
-* [LED1624G9](products/LED1624G9)
-* [LED1650R5](products/LED1650R5)
-* [LED1837R5](products/LED1837R5)
-* [LED1923R5](products/LED1923R5)
+* [L1529](products/L1529) - FLOALT LED light panel
+* [LED1536G5](products/LED1536G5) - TRÅDFRI bulb E12/E14, white spectrum, globe, opal, 400 lm
+* [LED1537R6](products/LED1537R6) - TRÅDFRI bulb GU10, white spectrum, 400 lm
+* [LED1545G12](products/LED1545G12) - TRÅDFRI bulb E26/E27, white spectrum, globe, opal, 980 lm
+* [LED1546G12](products/LED1546G12) - TRÅDFRI bulb E26/E27, white spectrum, globe, clear, 950 lm
+* [LED1622G12](products/LED1622G12) - TRÅDFRI bulb E26, white, globe, opal, 1000 lm.
+* [LED1623G12](products/LED1623G12) - TRÅDFRI bulb E27, white, globe, opal, 1000 lm
+* [LED1624G9](products/LED1624G9) - TRÅDFRI bulb E12/E14/E26/E27, color/white spectum, globe, opal, 600 lm
+* [LED1650R5](products/LED1650R5) - TRÅDFRI bulb GU10, white, 400 lm
+* [LED1837R5](products/LED1837R5) - TRÅDFRI bulb GU10, warm white, 400 lm
+* [LED1923R5](products/LED1923R5) - TRÅDFRI bulb GU10, color/white spectrum, 345 lm
 
 ### Remotes
 
-* [E1524](products/E1524)
-* [E1812](products/E1812)
-* [E2123](products/E2123)
-* [E2201](products/E2201)
-* [E2202](products/E2202)
-* [ICTC-G-1](products/ICTC-G-1)
+* [E1524](products/E1524) - TRÅDFRI Remote controller
+* [E1812](products/E1812) - TRÅDFRI Shortcut button
+* [E2123](products/E2123) - SYMFONISK remote controller
+* [E2201](products/E2201) - RODRET wireless dimmer
+* [ICTC-G-1](products/ICTC-G-1) - TRÅDFRI wireless dimmer
 
 ### Sensors
 
-* [E1525](products/E1525)
-* [E1745](products/E1745)
-* [E2013](products/E2013)
+* [E1525](products/E1525) - TRÅDFRI motion sensor
+* [E1745](products/E1745) - TRÅDFRI motion sensor
+* [E2013](products/E2013) - PARASOLL door/window sensor
+* [E2202](products/E2202) - BADRING water leakage sensor
 
 ### Gateways
 
-* [E1526](products/E1526)
+* [E1526](products/E1526) - TRÅDFRI hub
 
 ### Others
 
-* [ICPSHC24-10EU-IL-1](products/ICPSHC24-10EU-IL-1)
-* [ICPSHC24-30EU-IL-1](products/ICPSHC24-30EU-IL-1)
-* [ICPSLC24-10NA](products/ICPSLC24-10NA)
+* [ICPSHC24-10EU-IL-1](products/ICPSHC24-10EU-IL-1) - Driver for wireless control, 10 W
+* [ICPSHC24-30EU-IL-1](products/ICPSHC24-30EU-IL-1) - Driver for wireless control, 30 W
+* [ICPSLC24-10NA](products/ICPSLC24-10NA) - LED output controller/dimmer

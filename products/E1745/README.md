@@ -1,5 +1,5 @@
 # E1745
-Motion sensor.
+TRÅDFRI motion sensor.
 
 ## Details
 
@@ -37,3 +37,6 @@ Various test points:
 * ???: `AL`
 * ???: `ENT`
 * ???: `TX1`
+
+## Sources
+* https://www.ikea.com/us/en/manuals/tradfri-motion-sensor-kit__AA-1954408-1_pub.pdf

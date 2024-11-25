@@ -1,5 +1,5 @@
 # E2013
-IKEA PARASOLL Door/window sensor.
+PARASOLL door/window sensor.
 
 ## Details
 
@@ -26,3 +26,7 @@ sensor emits a higher voltage level that represents a closed state.
 * U3 - OC6811 (DC-DC converter)
 
 * Y1 - 39 Mhz
+
+## Sources
+* https://www.ikea.com/us/en/manuals/parasoll-sensor-puerta-ventana-inteligente-blanco__AA-2426062-2-2.pdf
+* https://fcc.report/FCC-ID/FHO-E2013/

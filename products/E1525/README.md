@@ -1,5 +1,5 @@
 # E1525
-Motion Sensor.
+TRÅDFRI motion sensor.
 
 ## Details:
 
@@ -48,3 +48,7 @@ labelled "D-Sensor-A1-01-A-V2.0".
 The motion detection dome is connected (one pin directly, one indirectly) to
 an "E93196C 5090C 9A" labelled 8-pin chip to which also PC10 and PB14 are
 connected (needs further investigation).
+
+## Sources
+
+* https://www.ikea.com/us/en/manuals/tradfri-wireless-motion-sensor-white__AA-2145281-3.pdf

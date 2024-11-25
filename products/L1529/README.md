@@ -1,5 +1,5 @@
 # L1529
-FLOALT 60x60
+FLOALT LED light panel, dimmable white spectrum, 60x60 cm
 
 ## Details:
 
@@ -16,5 +16,6 @@ FLOALT 60x60
 
 ## Sources
 
+* https://www.ikea.com/us/en/assembly_instructions/floalt-led-light-panel-dimmable-white-spectrum__AA-2411697-1-100.pdf
 * https://tweakers.net/nieuws/135893/ikea-komt-met-leddriver-om-geintegreerde-verlichting-slim-te-maken.html
 * https://imgur.com/gallery/bDTRQ
