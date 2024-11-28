@@ -1,8 +1,8 @@
-# E2204
-TRETAKT smart switch
+# E2206
+INSPELNING smart switch with energy monitoring.
 
-This is very similar to the [E2206](../E2206), but lacks the parts for energy
-monitoring.
+This is very similar to the [E2204](../E2204), but has a few additional parts
+populated for energy monitoring.
 
 ## Details
 
@@ -24,6 +24,10 @@ switch domes must be bent inwards, otherwise they will be damaged.
 
 * [Images](images)
 
+## Parts
+
+* U3: [Hiliwei Tech HLW8110](https://redmine.laas.fr/attachments/download/3444/DS_HLW8110_HLW8112_EN_Rev1.01%20.pdf)
+
 ## Sources
 
-* https://www.ikea.com/us/en/manuals/inspelning-stekker-smart-stroommonitor__AA-2416441-6-2.pdf
+* https://www.ikea.com/us/en/manuals/tretakt-plug-smart__AA-2396101-2-100.pdf
